@@ -8,8 +8,6 @@ Intel GPU <br />
 Audio (AppleALC) <br />
 TrackPad <br />
 Bluetooth <br />
-
-USB 3.0 <br />
 Built-in camera <br />
 Built-in mic <br />
 3. What's Not Working <br />
@@ -17,7 +15,7 @@ Wifi Intel <br />
 Usb speed <br />
 Brightness key <br />
 HDMI video and audio <br />
-
+USB 3.0 <br />
 ## Credits
 
 - [RehabMan](https://github.com/RehabMan) Updated [OS-X-Clover-Laptop-Config](https://github.com/RehabMan/OS-X-Clover-Laptop-Config) and [Laptop-DSDT-Patch](https://github.com/RehabMan/Laptop-DSDT-Patch) and [OS-X-USB-Inject-All](https://github.com/RehabMan/OS-X-USB-Inject-All) for maintenance
