@@ -1,5 +1,6 @@
 # Xiaomi Mi Air 13.3" 2018
 
+SUPPORT: Mojave<br />
 CPU: I7-8550u <br />
 
 2. What's Working <br />
