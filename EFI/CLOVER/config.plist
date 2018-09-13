@@ -37,6 +37,62 @@
 			<array>
 				<dict>
 					<key>Comment</key>
+					<string>Rename _Q1D</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1ExRA==
+					</data>
+					<key>Replace</key>
+					<data>
+					X1ExTA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename _Q1C</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1ExQw==
+					</data>
+					<key>Replace</key>
+					<data>
+					X1ExSA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change MATH to XATH</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					TUFUSA==
+					</data>
+					<key>Replace</key>
+					<data>
+					WEFUSA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change LGPA to XGPA</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					TEdQQQk=
+					</data>
+					<key>Replace</key>
+					<data>
+					WEdQQQk=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
 					<string>change _DSM to XDSM</string>
 					<key>Disabled</key>
 					<false/>
@@ -67,7 +123,7 @@
 					<key>Comment</key>
 					<string>change EC0 to EC</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					RUMwXw==
