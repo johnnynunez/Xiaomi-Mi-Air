@@ -10,12 +10,12 @@ Audio (AppleALC) <br />
 TrackPad <br />
 Bluetooth <br />
 USB 3.0 <br />
+Brightness key <br />
 Usb speed <br />
 Built-in camera <br />
 Built-in mic <br />
 3. What's Not Working <br />
 Wifi Intel <br />
-Brightness key <br />
 HDMI video and audio <br />
 
 ## Credits
