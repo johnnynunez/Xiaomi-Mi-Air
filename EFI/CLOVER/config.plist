@@ -25,12 +25,14 @@
 				<key>FixHPET</key>
 				<false/>
 				<key>FixIPIC</key>
-				<false/>
+				<true/>
 				<key>FixRTC</key>
 				<false/>
 				<key>FixRegions</key>
 				<true/>
 				<key>FixTMR</key>
+				<false/>
+				<key>FixUSB</key>
 				<false/>
 			</dict>
 			<key>Patches</key>
@@ -75,20 +77,6 @@
 					<key>Replace</key>
 					<data>
 					WEFUSA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change LGPA to XGPA</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					TEdQQQk=
-					</data>
-					<key>Replace</key>
-					<data>
-					WEdQQQk=
 					</data>
 				</dict>
 				<dict>
@@ -543,6 +531,24 @@
 				RiV1VHh4eHgA
 				</data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Enable TRIM for SSD</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AEFQUExFIFNTRAA=
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.iokit.IOAHCIBlockStorage</string>
+				<key>Replace</key>
+				<data>
+				AAAAAAAAAAAAAAA=
+				</data>
+			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
@@ -567,7 +573,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02738501GUFF4JA8</string>
+		<string>C02744306QXDM671M</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -595,9 +601,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro14,1</string>
 		<key>SerialNumber</key>
-		<string>C02VFCYKHV29</string>
+		<string>C02VMEY2HV29</string>
 		<key>SmUUID</key>
-		<string>18BF7128-CEE9-4B43-821A-A05E16BE4D6C</string>
+		<string>D0E3BB6B-B2F1-446B-A764-954F95ECA512</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
