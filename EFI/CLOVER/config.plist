@@ -337,6 +337,26 @@
 				<data>
 				AQAAAA==
 				</data>
+				<key>enable-hdmi20</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-con1-enable</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-con1-type</key>
+				<data>
+				AAgAAA==
+				</data>
+				<key>framebuffer-con2-enable</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-con2-type</key>
+				<data>
+				AAgAAA==
+				</data>
 				<key>framebuffer-fbmem</key>
 				<data>
 				AACQAA==
@@ -345,13 +365,17 @@
 				<data>
 				AQAAAA==
 				</data>
+				<key>framebuffer-pipecount</key>
+				<data>
+				AwAAAA==
+				</data>
+				<key>framebuffer-portcount</key>
+				<data>
+				AwAAAA==
+				</data>
 				<key>framebuffer-stolenmem</key>
 				<data>
 				AAAwAQ==
-				</data>
-				<key>framebuffer-unifiedmem</key>
-				<data>
-				AAAAgA==
 				</data>
 			</dict>
 		</dict>
@@ -573,7 +597,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02744306QXDM671M</string>
+		<string>C02709600GUDM6CA8</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -601,9 +625,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro14,1</string>
 		<key>SerialNumber</key>
-		<string>C02VMEY2HV29</string>
+		<string>C02TCUZNHV29</string>
 		<key>SmUUID</key>
-		<string>D0E3BB6B-B2F1-446B-A764-954F95ECA512</string>
+		<string>0B049436-ACFB-49BE-8EB6-E983556E4937</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
