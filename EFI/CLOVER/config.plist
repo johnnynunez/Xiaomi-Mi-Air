@@ -39,6 +39,24 @@
 			<array>
 				<dict>
 					<key>Comment</key>
+					<string>change MATH._STA to XSTA</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1NUQQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFNUQQ==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					TUFUSA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
 					<string>Rename _Q1D</string>
 					<key>Disabled</key>
 					<false/>
@@ -63,20 +81,6 @@
 					<key>Replace</key>
 					<data>
 					X1ExSA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change MATH to XATH</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					TUFUSA==
-					</data>
-					<key>Replace</key>
-					<data>
-					WEFUSA==
 					</data>
 				</dict>
 				<dict>
@@ -300,7 +304,9 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>igfxrst=1 nv_disable=1 dart=0 kext-dev-mode=1 abm_firstpolldelay=10000 darkwake=no</string>
+		<string>kext-dev-mode=1 igfxrst=1 dart=0</string>
+		<key>HibernationFixup</key>
+		<true/>
 		<key>NeverHibernate</key>
 		<false/>
 		<key>NoEarlyProgress</key>
@@ -308,7 +314,7 @@
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>5</integer>
+		<integer>4</integer>
 	</dict>
 	<key>Comment</key>
 	<string>This file is for 10.12.6+ with native KabyLake support</string>
@@ -597,7 +603,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02703501QXFF4HJA</string>
+		<string>C02653270J9DMT3UE</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -625,9 +631,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro14,1</string>
 		<key>SerialNumber</key>
-		<string>C02T40XFHV29</string>
+		<string>C02T1YZLHV29</string>
 		<key>SmUUID</key>
-		<string>9147E0EC-3CE4-41A4-AFDB-7717EE5B02D6</string>
+		<string>13AF73BD-0E53-43A9-A24A-AAE07D12B491</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
