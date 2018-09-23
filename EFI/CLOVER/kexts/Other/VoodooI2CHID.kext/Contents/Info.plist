@@ -307,14 +307,6 @@
 			</dict>
 			<key>IOProviderClass</key>
 			<string>IOHIDInterface</string>
-			<key>ProcessBluetoothMouseStopsTrackpad</key>
-			<true/>
-			<key>ProcessUSBMouseStopsTrackpad</key>
-			<true/>
-			<key>QuietTimeAfterTyping</key>
-			<integer>500</integer>
-			<key>RM,deliverNotifications</key>
-			<true/>
 		</dict>
 		<key>VoodooI2CHIDDevice Stylus HID Event Driver</key>
 		<dict>

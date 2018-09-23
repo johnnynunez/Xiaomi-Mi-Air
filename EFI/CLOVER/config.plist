@@ -25,11 +25,11 @@
 				<key>FixHPET</key>
 				<false/>
 				<key>FixIPIC</key>
-				<true/>
+				<false/>
 				<key>FixRTC</key>
 				<false/>
 				<key>FixRegions</key>
-				<true/>
+				<false/>
 				<key>FixTMR</key>
 				<false/>
 				<key>FixUSB</key>
@@ -37,24 +37,6 @@
 			</dict>
 			<key>Patches</key>
 			<array>
-				<dict>
-					<key>Comment</key>
-					<string>change MATH._STA to XSTA</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1NUQQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFNUQQ==
-					</data>
-					<key>TgtBridge</key>
-					<data>
-					TUFUSA==
-					</data>
-				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>Rename _Q1D</string>
@@ -81,6 +63,20 @@
 					<key>Replace</key>
 					<data>
 					X1ExSA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change MATH to XATH</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					TUFUSA==
+					</data>
+					<key>Replace</key>
+					<data>
+					WEFUSA==
 					</data>
 				</dict>
 				<dict>
@@ -286,6 +282,8 @@
 		</array>
 		<key>FixHeaders</key>
 		<true/>
+		<key>FixMCFG</key>
+		<true/>
 		<key>SSDT</key>
 		<dict>
 			<key>DropOem</key>
@@ -314,7 +312,7 @@
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>4</integer>
+		<integer>5</integer>
 	</dict>
 	<key>Comment</key>
 	<string>This file is for 10.12.6+ with native KabyLake support</string>
@@ -603,7 +601,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02653270J9DMT3UE</string>
+		<string>C02714902GUF2FR1H</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -631,9 +629,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro14,1</string>
 		<key>SerialNumber</key>
-		<string>C02T1YZLHV29</string>
+		<string>C02TJ04WHV29</string>
 		<key>SmUUID</key>
-		<string>13AF73BD-0E53-43A9-A24A-AAE07D12B491</string>
+		<string>7F7B7950-4AF8-48A1-94EA-A4A11895C012</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
