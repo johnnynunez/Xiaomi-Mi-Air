@@ -207,6 +207,42 @@
 					RUNfXw==
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename TPD0._CRS to XCRS</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X0NSUw==
+					</data>
+					<key>Replace</key>
+					<data>
+					WENSUw==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					VFBEMA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename TPD0._DSM to XDSM</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X0RTTQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WERTTQ==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					VFBEMA==
+					</data>
+				</dict>
 			</array>
 		</dict>
 		<key>DropTables</key>
@@ -532,7 +568,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02736104J9DNJLCB</string>
+		<string>C02709609J9FF4HAD</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -558,9 +594,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro14,1</string>
 		<key>SerialNumber</key>
-		<string>C02VC8YTHV29</string>
+		<string>C02TCXZDHV29</string>
 		<key>SmUUID</key>
-		<string>AFF01517-82F6-4DC9-931C-FEBC6B98946E</string>
+		<string>AC15A734-00C1-4F56-877D-E3791F388800</string>
 		<key>Trust</key>
 		<true/>
 		<key>Version</key>
