@@ -23,6 +23,76 @@
 			<array>
 				<dict>
 					<key>Comment</key>
+					<string>change PCI0.GPI0._STA to PCI0.GPI0.XSTA</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1NUQQCgCZNT
+					</data>
+					<key>Replace</key>
+					<data>
+					WFNUQQCgCZNT
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change PCI0.I2C0.TPD0._CRS to XCRS</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					FDNfQ1JTAKAO
+					</data>
+					<key>Replace</key>
+					<data>
+					FDNYQ1JTAKAO
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change EC0 to EC</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					RUMwXw==
+					</data>
+					<key>Replace</key>
+					<data>
+					RUNfXw==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename _Q1C</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1ExQw==
+					</data>
+					<key>Replace</key>
+					<data>
+					X1ExSA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename _Q1D</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1ExRA==
+					</data>
+					<key>Replace</key>
+					<data>
+					X1ExTA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
 					<string>change _OSI to XOSI</string>
 					<key>Disabled</key>
 					<false/>
@@ -147,48 +217,6 @@
 					WFBSVwI=
 					</data>
 				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Rename _Q1D</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1ExRA==
-					</data>
-					<key>Replace</key>
-					<data>
-					X1ExTA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Rename _Q1C</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1ExQw==
-					</data>
-					<key>Replace</key>
-					<data>
-					X1ExSA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change EC0 to EC</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					RUMwXw==
-					</data>
-					<key>Replace</key>
-					<data>
-					RUNfXw==
-					</data>
-				</dict>
 			</array>
 		</dict>
 		<key>DropTables</key>
@@ -244,7 +272,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>igfxrst=1 dart=0 -cdfon -igfxnohdmi</string>
+		<string>igfxrst=1 dart=0</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>HibernationFixup</key>
@@ -270,9 +298,7 @@
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>layout-id</key>
-				<data>
-				YwAAAA==
-				</data>
+				<integer>99</integer>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
