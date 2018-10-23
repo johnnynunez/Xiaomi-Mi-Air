@@ -16,10 +16,10 @@
 				<true/>
 				<key>AddMCHC</key>
 				<true/>
+				<key>FakeLPC</key>
+				<true/>
 				<key>FixADP1</key>
 				<true/>
-				<key>FixHPET</key>
-				<false/>
 				<key>FixRTC</key>
 				<true/>
 				<key>FixTMR</key>
@@ -71,6 +71,20 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
+					<string>Rename TPD0._CRS to XCRS</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					Q1JTAKAO
+					</data>
+					<key>Replace</key>
+					<data>
+					WENSU6AO
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
 					<string>change PCI0.GPI0._STA to PCI0.GPI0.XSTA</string>
 					<key>Disabled</key>
 					<false/>
@@ -87,7 +101,7 @@
 					<key>Comment</key>
 					<string>change EC0 to EC</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					RUMwXw==
@@ -423,20 +437,6 @@
 		<true/>
 		<key>KernelToPatch</key>
 		<array>
-			<dict>
-				<key>Comment</key>
-				<string>MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				ILniAAAADzA=
-				</data>
-				<key>Replace</key>
-				<data>
-				ILniAAAAkJA=
-				</data>
-			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Disable panic kext logging on 10.13 release kernel (credit vit9696)</string>
