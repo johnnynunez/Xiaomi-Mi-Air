@@ -57,20 +57,6 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change PCI0.I2C0.TPD0._CRS to XCRS</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					FDNfQ1JTAKAO
-					</data>
-					<key>Replace</key>
-					<data>
-					FDNYQ1JTAKAO
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>Rename TPD0._CRS to XCRS</string>
 					<key>Disabled</key>
 					<false/>
@@ -304,7 +290,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>igfxrst=1 dart=0</string>
+		<string>igfxrst=1 lilucpu=9 dart=0</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>HibernationFixup</key>
