@@ -16,11 +16,7 @@
 				<true/>
 				<key>AddMCHC</key>
 				<true/>
-				<key>FakeLPC</key>
-				<true/>
 				<key>FixADP1</key>
-				<true/>
-				<key>FixRTC</key>
 				<true/>
 				<key>FixTMR</key>
 				<true/>
@@ -290,7 +286,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>igfxrst=1 lilucpu=9 dart=0</string>
+		<string>igfxrst=1 dart=0</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>HibernationFixup</key>
@@ -298,6 +294,8 @@
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>NoEarlyProgress</key>
+		<true/>
+		<key>RtcHibernateAware</key>
 		<true/>
 		<key>Secure</key>
 		<false/>
@@ -313,10 +311,129 @@
 		</dict>
 		<key>Properties</key>
 		<dict>
+			<key>PciRoot(0x0)/Pci(0x00,0x0)</key>
+			<dict>
+				<key>name</key>
+				<string>pci8086,5914</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>PCI-Express</string>
+				<key>model</key>
+				<string>Sunrise Point-LP USB 3.0 xHCI Controller</string>
+				<key>name</key>
+				<string>pci8086,9d2f</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x15,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>PCI-Express</string>
+				<key>device_type</key>
+				<string>I2C</string>
+				<key>model</key>
+				<string>Sunrise Point-LP Serial IO I2C Controller #0</string>
+				<key>name</key>
+				<string>pci8086,9d60</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x15,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>PCI-Express</string>
+				<key>device_type</key>
+				<string>I2C</string>
+				<key>model</key>
+				<string>Sunrise Point-LP Serial IO I2C Controller #1</string>
+				<key>name</key>
+				<string>pci8086,9d61</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x16,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>PCI-Express</string>
+				<key>device_type</key>
+				<string>IMEI</string>
+				<key>model</key>
+				<string>Sunrise Point-LP CSME HECI #1</string>
+				<key>name</key>
+				<string>pci8086,9d3a</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x17,0x0)</key>
+			<dict>
+				<key>model</key>
+				<string>Sunrise Point-LP SATA Controller [AHCI mode]</string>
+				<key>name</key>
+				<string>pci8085,9d03</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1c,0x0)</key>
+			<dict>
+				<key>reg-ltrovr</key>
+				<data>
+				AAQAAAAAAAA=
+				</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1c,0x4)</key>
+			<dict>
+				<key>reg-ltrovr</key>
+				<data>
+				AAQAAAAAAAA=
+				</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1c,0x7)</key>
+			<dict>
+				<key>reg-ltrovr</key>
+				<data>
+				AAQAAAAAAAA=
+				</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1c,0x8)</key>
+			<dict>
+				<key>reg-ltrovr</key>
+				<data>
+				AAQAAAAAAAA=
+				</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x0)</key>
+			<dict>
+				<key>name</key>
+				<string>pci8086,9d4e</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>PCI-Express</string>
+				<key>device_type</key>
+				<string>PCHPMC Controller</string>
+				<key>model</key>
+				<string>Sunrise Point-LP PMC</string>
+				<key>name</key>
+				<string>pci8086,9d21</string>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
+				<key>AAPL,slot-name</key>
+				<string>PCI-Express</string>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>hda-idle-support</key>
+				<string>1</string>
 				<key>layout-id</key>
-				<integer>99</integer>
+				<integer>30</integer>
+				<key>model</key>
+				<string>Realtek ALC255 Audio Controller</string>
+				<key>name</key>
+				<string>pci8086,9d71</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x4)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>PCI-Express</string>
+				<key>model</key>
+				<string>Sunrise Point-LP SMBus</string>
+				<key>name</key>
+				<data>
+				AAAIBp0j
+				</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
@@ -324,6 +441,8 @@
 				<data>
 				AAAWWQ==
 				</data>
+				<key>AAPL,slot-name</key>
+				<string>PCI-Express</string>
 				<key>device-id</key>
 				<data>
 				FlkAAA==
@@ -356,6 +475,8 @@
 				<data>
 				AAAwAQ==
 				</data>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
 			</dict>
 		</dict>
 		<key>USB</key>
@@ -420,7 +541,7 @@
 	<key>KernelAndKextPatches</key>
 	<dict>
 		<key>AppleRTC</key>
-		<true/>
+		<false/>
 		<key>KernelToPatch</key>
 		<array>
 			<dict>
@@ -494,6 +615,24 @@
 				SU9LaXM=
 				</data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Enable TRIM for SSD</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AEFQUExFIFNTRAA=
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.iokit.IOAHCIBlockStorage</string>
+				<key>Replace</key>
+				<data>
+				AAAAAAAAAAAAAAA=
+				</data>
+			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
@@ -512,9 +651,9 @@
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP141.88Z.F000.B00.1809171524</string>
+		<string>MBP152.88Z.F000.B00.1809171524</string>
 		<key>Board-ID</key>
-		<string>Mac-B4831CEBD52A0C4C</string>
+		<string>Mac-827FB448E656EC26</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardType</key>
@@ -528,7 +667,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>184.0.0.0.0</string>
+		<string>220.200.252.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -544,7 +683,7 @@
 		<key>PlatformFeature</key>
 		<string>0x1A</string>
 		<key>ProductName</key>
-		<string>MacBookPro14,1</string>
+		<string>MacBookPro15,2</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
