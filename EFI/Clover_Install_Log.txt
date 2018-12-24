@@ -1,32 +1,38 @@
 
-Clover EFI installer log - Sat Dec 15 15:16:11 CET 2018
-Installer version: v2.4k r4809 EFI bootloader
+Clover EFI installer log - Sat Dec 22 12:43:00 CET 2018
+Installer version: v2.4k r4818 EFI bootloader
 ======================================================
 /dev/disk0 (internal, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      GUID_partition_scheme                        *500.1 GB   disk0
    1:                        EFI EFI                     209.7 MB   disk0s1
-   2:                 Apple_APFS Container disk1         499.9 GB   disk0s2
+   2:                 Apple_APFS Container disk1         400.0 GB   disk0s2
+   3:                 Linux Swap                         8.0 GB     disk0s3
+   4:           Linux Filesystem                         91.9 GB    disk0s4
 
 /dev/disk1 (synthesized):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      APFS Container Scheme -                      +499.9 GB   disk1
+   0:      APFS Container Scheme -                      +400.0 GB   disk1
                                  Physical Store disk0s2
-   1:                APFS Volume macOS                   44.7 GB    disk1s1
-   2:                APFS Volume Preboot                 47.1 MB    disk1s2
+   1:                APFS Volume macOS                   57.4 GB    disk1s1
+   2:                APFS Volume Preboot                 46.0 MB    disk1s2
    3:                APFS Volume Recovery                517.0 MB   disk1s3
    4:                APFS Volume VM                      1.1 GB     disk1s4
 
-Target volume /Volumes/macOS on disk1 is APFS on physical store disk0s2
+/dev/disk2 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *7.8 GB     disk2
+   1:                        EFI EFI                     209.7 MB   disk2s1
+   2:                  Apple_HFS Install macOS Mojave    7.4 GB     disk2s2
+
 ======================================================
 Backing up EFI files
 
-Backing up /Volumes/macOS/EFIROOTDIR/EFI folder to /Volumes/macOS/EFI-Backups/r4784/2018-12-15-15h16/EFI
 ======================================================
 Installing BootSectors/BootLoader
 
-Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
-Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/Install macOS Mojave
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/Install macOS Mojave
 
 Removing drivers64UEFI/AppleImageCodec-64.efi driver because AppleUiSupport driver present
 
@@ -38,6 +44,8 @@ Removing drivers64UEFI/FirmwareVolume-64.efi driver because AppleUiSupport drive
 
 Removing drivers64UEFI/HashServiceFix-64.efi driver because AppleUiSupport driver present
 
+Theme 'Clovy' (defined in config.plist) not found !
+Using default theme 'christmas'
 ======================================================
 =========== Clover EFI Installation Finish ===========
 ======================================================

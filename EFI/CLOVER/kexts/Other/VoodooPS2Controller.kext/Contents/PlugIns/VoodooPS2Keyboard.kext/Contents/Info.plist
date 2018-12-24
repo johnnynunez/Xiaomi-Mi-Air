@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>18A391</string>
+	<string>18C54</string>
 	<key>CFBundleExecutable</key>
 	<string>VoodooPS2Keyboard</string>
 	<key>CFBundleGetInfoString</key>
@@ -29,17 +29,17 @@
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>9F2000</string>
+	<string>10B61</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>12D75</string>
+	<string>18B71</string>
 	<key>DTSDKName</key>
-	<string>macosx10.8</string>
+	<string>macosx10.14</string>
 	<key>DTXcode</key>
-	<string>0941</string>
+	<string>1010</string>
 	<key>DTXcodeBuild</key>
-	<string>9F2000</string>
+	<string>10B61</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>ApplePS2Keyboard</key>
@@ -208,9 +208,15 @@
 						<array>
 							<string>;This section maps ps2 codes (packet format) received quickly (macros) into fake ps2 codes (packet format)</string>
 							<string>;Fn+F1</string>
-							<data>//8CbgAAAAACWwEZ</data>
-							<data>//8C7gAAAAAC2wGZ</data>
-							<data>//8C7gAAAAABmQLb</data>
+							<data>
+							//8CbgAAAAACWwEZ
+							</data>
+							<data>
+							//8C7gAAAAAC2wGZ
+							</data>
+							<data>
+							//8C7gAAAAABmQLb
+							</data>
 						</array>
 						<key>MaximumMacroTime</key>
 						<integer>35000000</integer>
@@ -306,7 +312,7 @@
 					<key>Swap capslock and left control</key>
 					<false/>
 					<key>Swap command and option</key>
-					<false/>
+					<true/>
 					<key>Use ISO layout keyboard</key>
 					<false/>
 					<key>alt_handler_id</key>
