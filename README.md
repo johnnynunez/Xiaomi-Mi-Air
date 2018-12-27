@@ -9,14 +9,13 @@ Intel GPU <br />
 Audio (AppleALC) <br />
 TrackPad <br />
 HDMI video and audio <br />
-Bluetooth <br />
 USB 3.0 <br />
 Brightness key <br />
 Usb speed <br />
 Built-in camera <br />
 Built-in mic <br />
 3. What's Not Working <br />
-Wifi Intel <br />
+Wifi & Bluetooth Intel <br />
 ## Credits
 
 - [stevezhengshiqi](https://github.com/stevezhengshiqi) He is a good developer. I'm learning a lot about how to patch problems. Thanks for PCIList.aml and more.
