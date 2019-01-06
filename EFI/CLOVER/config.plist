@@ -83,7 +83,7 @@
 					<key>Comment</key>
 					<string>change EC0 to EC</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					RUMwXw==
@@ -260,7 +260,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>igfxrst=1 -cdfon dart=0</string>
+		<string>igfxrst=1 -cdfon</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>HibernationFixup</key>
@@ -408,9 +408,9 @@
 				<key>hda-idle-support</key>
 				<string>1</string>
 				<key>layout-id</key>
-				<integer>30</integer>
+				<integer>99</integer>
 				<key>model</key>
-				<string>Realtek ALC255 Audio Controller</string>
+				<string>Realtek ALC298 Audio Controller</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x4)</key>
 			<dict>
@@ -510,7 +510,7 @@
 		<key>EDID</key>
 		<dict>
 			<key>Inject</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>Inject</key>
 		<dict>
@@ -630,46 +630,10 @@
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
-		<key>BiosReleaseDate</key>
-		<string>09/17/2018</string>
-		<key>BiosVendor</key>
-		<string>Apple Inc.</string>
-		<key>BiosVersion</key>
-		<string>MBP141.88Z.F000.B00.1809171524</string>
-		<key>Board-ID</key>
-		<string>Mac-B4831CEBD52A0C4C</string>
-		<key>BoardManufacturer</key>
-		<string>Apple Inc.</string>
-		<key>BoardType</key>
-		<integer>10</integer>
-		<key>BoardVersion</key>
-		<string>1.0</string>
-		<key>ChassisAssetTag</key>
-		<string>MacBook-Aluminum</string>
-		<key>ChassisManufacturer</key>
-		<string>Apple Inc.</string>
-		<key>ChassisType</key>
-		<string>0x09</string>
-		<key>EfiVersion</key>
-		<string>184.0.0.0.0</string>
-		<key>Family</key>
-		<string>MacBook Pro</string>
-		<key>FirmwareFeatures</key>
-		<string>0xFC0FE137</string>
-		<key>FirmwareFeaturesMask</key>
-		<string>0xFF1FFF3F</string>
-		<key>LocationInChassis</key>
-		<string>Part Component</string>
-		<key>Manufacturer</key>
-		<string>Apple Inc.</string>
-		<key>Mobile</key>
-		<true/>
-		<key>PlatformFeature</key>
-		<string>0x1A</string>
 		<key>ProductName</key>
 		<string>MacBookPro14,1</string>
-		<key>Version</key>
-		<string>1.0</string>
+		<key>Trust</key>
+		<true/>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
