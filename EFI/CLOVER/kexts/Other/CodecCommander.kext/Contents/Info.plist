@@ -276,21 +276,9 @@
 					<array>
 						<dict>
 							<key>Command</key>
-							<data>AYcHIg==</data>
+							<data>AYcHJQ==</data>
 							<key>Comment</key>
-							<string>0x18 SET_PIN_WIDGET_CONTROL 0x22</string>
-							<key>On Init</key>
-							<true/>
-							<key>On Sleep</key>
-							<false/>
-							<key>On Wake</key>
-							<true/>
-						</dict>
-						<dict>
-							<key>Command</key>
-							<data>AacHIw==</data>
-							<key>Comment</key>
-							<string>0x1a SET_PIN_WIDGET_CONTROL 0x23</string>
+							<string>0x18 SET_PIN_WIDGET_CONTROL 0x25</string>
 							<key>On Init</key>
 							<true/>
 							<key>On Sleep</key>
@@ -312,8 +300,6 @@
 						</dict>
 					</array>
 					<key>Perform Reset</key>
-					<false/>
-					<key>Perform Reset on External Wake</key>
 					<false/>
 					<key>Send Delay</key>
 					<integer>10</integer>
