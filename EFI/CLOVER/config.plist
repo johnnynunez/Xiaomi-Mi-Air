@@ -25,44 +25,16 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>Rename _Q1C</string>
+					<string>change EC0 to EC</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					X1ExQw==
+					RUMwXw==
 					</data>
 					<key>Replace</key>
 					<data>
-					X1ExSA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Rename _Q1D</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1ExRA==
-					</data>
-					<key>Replace</key>
-					<data>
-					X1ExTA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Rename TPD0._CRS to XCRS</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					Q1JTAKAO
-					</data>
-					<key>Replace</key>
-					<data>
-					WENSU6AO
+					RUNfXw==
 					</data>
 				</dict>
 				<dict>
@@ -81,16 +53,44 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change EC0 to EC</string>
+					<string>Rename TPD0._CRS to XCRS</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
-					RUMwXw==
+					Q1JTAKAO
 					</data>
 					<key>Replace</key>
 					<data>
-					RUNfXw==
+					WENSU6AO
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename _Q1D</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1ExRA==
+					</data>
+					<key>Replace</key>
+					<data>
+					X1ExTA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename _Q1C</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1ExQw==
+					</data>
+					<key>Replace</key>
+					<data>
+					X1ExSA==
 					</data>
 				</dict>
 				<dict>
@@ -219,20 +219,6 @@
 					WFBSVwI=
 					</data>
 				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change MATH._STA and LDR2._STA to XSTA</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1NUQQCgDZNQ
-					</data>
-					<key>Replace</key>
-					<data>
-					WFNUQQCgDZNQ
-					</data>
-				</dict>
 			</array>
 		</dict>
 		<key>DropTables</key>
@@ -260,7 +246,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>igfxrst=1 -cdfon</string>
+		<string>igfxrst=1</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>HibernationFixup</key>
@@ -292,36 +278,12 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
 			<dict>
-				<key>AAPL,current-available</key>
-				<data>
-				NAgAAA==
-				</data>
-				<key>AAPL,current-extra</key>
-				<data>
-				mAgAAA==
-				</data>
-				<key>AAPL,current-extra-in-sleep</key>
-				<data>
-				QAYAAA==
-				</data>
-				<key>AAPL,max-port-current-in-sleep</key>
-				<data>
-				NAgAAA==
-				</data>
 				<key>AAPL,slot-name</key>
 				<string>PCI-Express</string>
 				<key>model</key>
-				<string>Sunrise Point-LP USB 3.0 xHCI Controller</string>
+				<string>Intel Sunrise Point-LP USB 3.0 xHCI Controller</string>
 				<key>name</key>
 				<string>pci8086,9d2f</string>
-				<key>subsystem-id</key>
-				<data>
-				cHIAAA==
-				</data>
-				<key>subsystem-vendor-id</key>
-				<data>
-				hoAAAA==
-				</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x15,0x0)</key>
 			<dict>
@@ -330,7 +292,7 @@
 				<key>device_type</key>
 				<string>I2C</string>
 				<key>model</key>
-				<string>Sunrise Point-LP Serial IO I2C Controller #0</string>
+				<string>Intel Sunrise Point-LP Serial IO I2C Controller #0</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x15,0x1)</key>
 			<dict>
@@ -339,7 +301,7 @@
 				<key>device_type</key>
 				<string>I2C</string>
 				<key>model</key>
-				<string>Sunrise Point-LP Serial IO I2C Controller #1</string>
+				<string>Intel Sunrise Point-LP Serial IO I2C Controller #1</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x16,0x0)</key>
 			<dict>
@@ -348,7 +310,7 @@
 				<key>device_type</key>
 				<string>IMEI</string>
 				<key>model</key>
-				<string>Sunrise Point-LP CSME HECI #1</string>
+				<string>Intel Sunrise Point-LP CSME HECI #1</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x17,0x0)</key>
 			<dict>
@@ -397,7 +359,7 @@
 				<key>device_type</key>
 				<string>PCHPMC Controller</string>
 				<key>model</key>
-				<string>Sunrise Point-LP PMC</string>
+				<string>Intel Sunrise Point-LP PMC</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
@@ -410,14 +372,14 @@
 				<key>layout-id</key>
 				<integer>99</integer>
 				<key>model</key>
-				<string>Realtek ALC298 Audio Controller</string>
+				<string>Intel Sunrise Point-LP HD Audio</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x4)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>PCI-Express</string>
 				<key>model</key>
-				<string>Sunrise Point-LP SMBus</string>
+				<string>Intel Sunrise Point-LP SMBus</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
@@ -458,10 +420,6 @@
 				<key>framebuffer-stolenmem</key>
 				<data>
 				AAAwAQ==
-				</data>
-				<key>framebuffer-unifiedmem</key>
-				<data>
-				AAAAgA==
 				</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
