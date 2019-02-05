@@ -1,3 +1,7 @@
+# I'm a student of engineering, life is expensive and work is hard. My repositories are free, please, reward me. Thank you
+# [Reward me](paypal.me/johnnync13)<br />
+
+
 # Xiaomi Mi Air 13.3" 2018
 
 SUPPORT: Mojave<br />
