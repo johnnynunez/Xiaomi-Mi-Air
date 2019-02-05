@@ -1,4 +1,4 @@
-# I'm a student of engineering, life is expensive and work is hard. My repositories are free, please, reward me. Thank you
+# I'm a Student Engineering, life and my university career is expensive and work is hard. My repositories are free, please, reward me. Thank you
 # [Reward me](paypal.me/johnnync13)<br />
 
 
