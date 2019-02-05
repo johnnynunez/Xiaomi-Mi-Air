@@ -1,5 +1,5 @@
 # I'm a Student Engineering, life and my university career is expensive and work is hard. My repositories are free, please, reward me. Thank you
-# [Reward me](paypal.me/johnnync13)<br />
+# [Reward me](https://www.paypal.me/johnnync13)<br />
 
 
 # Xiaomi Mi Air 13.3" 2018
