@@ -25,6 +25,34 @@
 			<array>
 				<dict>
 					<key>Comment</key>
+					<string>change MATH._STA and LDR2._STA to XSTA</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1NUQQCgDZNQ
+					</data>
+					<key>Replace</key>
+					<data>
+					WFNUQQCgDZNQ
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change RTC to XRTC</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					UlRDXw==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFJUQw==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
 					<string>change EC0 to EC</string>
 					<key>Disabled</key>
 					<false/>
@@ -249,8 +277,6 @@
 		<string>igfxrst=1</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
-		<key>HibernationFixup</key>
-		<true/>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>NoEarlyProgress</key>
@@ -427,10 +453,10 @@
 		</dict>
 		<key>USB</key>
 		<dict>
-			<key>AddClockID</key>
-			<true/>
 			<key>FixOwnership</key>
 			<true/>
+			<key>HighCurrent</key>
+			<false/>
 			<key>Inject</key>
 			<false/>
 		</dict>
