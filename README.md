@@ -6,22 +6,29 @@ Copy kexts to /Library/Extensions/ and rebuild cache
 
 # Xiaomi Mi Air 13.3" 2018
 
-SUPPORT: Mojave<br />
-CPU: I7-8550u <br />
+MacOS Versions Supported:
+* High Sierra
+* Mojave
+* Catalina(Beta)
 
-2. What's Working <br />
-Native power management <br />
-Intel GPU <br />
-Audio (AppleALC) <br />
-TrackPad <br />
-HDMI video and audio <br />
-USB 3.0 <br />
-Brightness key <br />
-Usb speed <br />
-Built-in camera <br />
-Built-in mic <br />
-3. What's Not Working <br />
-Wifi & Bluetooth Intel <br />
+CPUs Supported:
+* I7-8550u
+* I5-8250u
+
+ What __is__ Working
+* Native power management
+* Intel GPU 
+* Audio (AppleALC) 
+* TrackPad 
+* HDMI video and audio 
+* USB 3.0 
+* Brightness keys
+* Usb speed
+* Built-in camera
+* Built-in mic 
+
+What is __Not__ Working
+* Wifi & Bluetooth Intel
 ## Credits
 
 - [stevezhengshiqi](https://github.com/stevezhengshiqi) He is a good developer. I'm learning a lot about how to patch problems. Thanks for PCIList.aml and more.
