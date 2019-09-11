@@ -1,6 +1,7 @@
 # Hi, this is Johnny, I'm an Engineering student. Life and university career are expensive and work is hard. My repositories are free, please consider reward me. Thank you.
 # [Reward me](https://www.paypal.me/johnnync13)<br />
-
+# Donate BTC: 3R13Ye85VwuzrBEJf32dZgREHsFsFpoG4m
+# Donate ETH: 0x13f430523CAB662faA6924D6fbA4FdFA973A693b
 Tutorial:<br />
 Copy kexts to /Library/Extensions/ and rebuild cache
 
