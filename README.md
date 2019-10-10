@@ -30,6 +30,9 @@ CPUs Supported:
 
 What is __Not__ Working
 * Wifi & Bluetooth Intel
+
+Hackintosh combojack
+- [hackintosh-stuff](https://github.com/hackintosh-stuff) thanks for his repository to fix jack. https://github.com/hackintosh-stuff/ComboJack
 ## Credits
 
 - [stevezhengshiqi](https://github.com/stevezhengshiqi) He is a good developer. I'm learning a lot about how to patch problems. Thanks for PCIList.aml and more.
