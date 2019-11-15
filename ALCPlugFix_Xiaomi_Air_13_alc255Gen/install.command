@@ -1,27 +1,131 @@
 #!/bin/bash
+#set -x # for DEBUGGING
 
+# Rewrite on Feb 27, 2019 by stevezhengshiqi, special thanks to @Menchen
+# Support XiaoMi-Air and Notebook Air(ALC255, layout-id 3)'
 
-path=${0%/*}
-sudo cp -a "$path/ALCPlugFix" /usr/bin
-sudo chmod 755 /usr/bin/ALCPlugFix
-sudo chown root:wheel /usr/bin/ALCPlugFix
-sudo cp -a "$path/hda-verb" /usr/bin
-sudo chmod 755 /usr/bin/hda-verb
-sudo chown root:wheel /usr/bin/hda-verb
-sudo cp -a "$path/good.win.ALCPlugFix.plist" /Library/LaunchAgents/
-sudo chmod 644 /Library/LaunchAgents/good.win.ALCPlugFix.plist
-sudo chown root:wheel /Library/LaunchAgents/good.win.ALCPlugFix.plist
-sudo launchctl load /Library/LaunchAgents/good.win.ALCPlugFix.plist
-echo 'The installation of the ALCPlugFix daemon is complete'
-echo 'Rebuild kextcache, please wait...'
-sudo chmod -Rf 755 /S*/L*/E*
-sudo chown -Rf 0:0 /S*/L*/E*
-sudo chmod -Rf 755 /L*/E*
-sudo chown -Rf 0:0 /L*/E*
-sudo rm -Rf /S*/L*/PrelinkedKernels/*
-sudo rm -Rf /S*/L*/Caches/com.apple.kext.caches/*
-sudo touch -f /S*/L*/E*
-sudo touch -f /L*/E*
-sudo kextcache -Boot -U /
-echo 'Rebuild kextcache is complete'
-bash read -p 'Press any key to Exit'
+# Interface (Ref:http://patorjk.com/software/taag/#p=display&f=Ivrit&t=P%20l%20u%20g%20F%20i%20x)
+function interface() {
+    echo ' ____    _                   _____   _         '
+    echo '|  _ \  | |  _   _    __ _  |  ___| (_) __  __ '
+    echo '| |_) | | | | | | |  / _` | | |_    | | \ \/ / '
+    echo '|  __/  | | | |_| | | (_| | |  _|   | |  >  <  '
+    echo '|_|     |_|  \__,_|  \__, | |_|     |_| /_/\_\ '
+    echo '                      |___/                    '
+    echo 'Support XiaoMi-Air and Notebook Air(ALC255, layout-id 3)'
+    echo '==============================================='
+}
+
+# Choose option
+function choice() {
+    echo "(1) Enable ALCPlugFix"
+    echo "(2) Disable ALCPlugFix"
+    echo "(3) Exit"
+    read -p "Which option you want to choose? (1/2/3):" alc_option
+    echo
+}
+
+# Exit if connection fails
+function networkWarn(){
+    echo "ERROR: Fail to download ALCPlugFix, please check the network state"
+    clean
+    exit 1
+}
+
+# Copy the audio fix files
+function copy() {
+    path=${0%/*}
+    echo "Copying audio fix patch..."
+	if [ ! -d "/usr/local/bin" ]; then
+		echo "'/usr/local/bin' not found, creating one instead..."
+		sudo mkdir -p -m 775 /usr/local/bin
+		sudo chown $USER:admin /usr/local/bin
+	fi
+    sudo cp "$path/ALCPlugFix" /usr/local/bin/
+    sudo cp "$path/hda-verb" /usr/local/bin/
+    sudo cp "$path/good.win.ALCPlugFix.plist" /Library/LaunchDaemons/
+    echo "Copy complete"
+    echo
+}
+
+# Fix permission
+function fixpermission() {
+    echo "Fixing permission..."
+    sudo chmod 755 /usr/local/bin/ALCPlugFix
+    sudo chown $USER:admin /usr/local/bin/ALCPlugFix
+    sudo chmod 755 /usr/local/bin/hda-verb
+    sudo chown $USER:admin /usr/local/bin/hda-verb
+    sudo chmod 644 /Library/LaunchDaemons/good.win.ALCPlugFix.plist
+    sudo chown root:wheel /Library/LaunchDaemons/good.win.ALCPlugFix.plist
+    echo "Fix complete"
+    echo
+}
+
+# Load service
+function loadservice() {
+    echo "Loading service..."
+    sudo launchctl load /Library/LaunchDaemons/good.win.ALCPlugFix.plist
+    echo "Load complete"
+    echo
+}
+
+# Clean
+function clean() {
+    echo "Cleaning..."
+    sudo rm -rf ../one-key-alcplugfix
+    echo "Clean complete"
+    echo
+}
+
+# Uninstall
+function uninstall() {
+    echo "Uninstalling..."
+    sudo launchctl remove /Library/LaunchAgents/good.win.ALCPlugFix.plist
+    sudo launchctl remove /Library/LaunchDaemons/good.win.ALCPlugFix.plist
+    sudo rm -rf /Library/LaunchAgents/good.win.ALCPlugFix.plist
+    sudo rm -rf /Library/LaunchDaemons/good.win.ALCPlugFix.plist
+    sudo rm -rf /usr/bin/ALCPlugFix
+    sudo rm -rf /usr/bin/hda-verb
+    sudo rm -rf /usr/local/bin/ALCPlugFix
+    sudo rm -rf /usr/local/bin/hda-verb
+    echo "Uninstall complete"
+    echo 
+    if [[ $1 = "cleanup" ]]; then 
+    return
+    else exit 0 
+    fi
+}
+
+# Install function
+function install() {
+    uninstall "cleanup"
+    copy
+    fixpermission
+    loadservice
+    clean
+    echo 'Nice! The installation of the ALCPlugFix daemon completes.'
+    exit 0
+}
+
+# Main function
+function main() {
+    interface
+    choice
+    case $alc_option in
+        1)
+        install
+        ;;
+        2)
+        uninstall
+        ;;
+        3)
+        exit 0
+        ;;
+        *)
+        echo "ERROR: Invalid input, closing the script"
+        exit 1
+        ;;
+    esac
+}
+
+main
