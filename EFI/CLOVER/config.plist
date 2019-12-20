@@ -33,13 +33,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					X1ExQw==
-					</data>
+					<data>X1ExQw==</data>
 					<key>Replace</key>
-					<data>
-					X1ExSA==
-					</data>
+					<data>X1ExSA==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -47,13 +43,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					X1ExRA==
-					</data>
+					<data>X1ExRA==</data>
 					<key>Replace</key>
-					<data>
-					X1ExTA==
-					</data>
+					<data>X1ExTA==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -61,13 +53,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					Q1JTAKAO
-					</data>
+					<data>Q1JTAKAO</data>
 					<key>Replace</key>
-					<data>
-					WENSU6AO
-					</data>
+					<data>WENSU6AO</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -75,13 +63,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					X1NUQQCgCZNT
-					</data>
+					<data>X1NUQQCgCZNT</data>
 					<key>Replace</key>
-					<data>
-					WFNUQQCgCZNT
-					</data>
+					<data>WFNUQQCgCZNT</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -89,13 +73,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					RUMwXw==
-					</data>
+					<data>RUMwXw==</data>
 					<key>Replace</key>
-					<data>
-					RUNfXw==
-					</data>
+					<data>RUNfXw==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -103,13 +83,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					X09TSQ==
-					</data>
+					<data>X09TSQ==</data>
 					<key>Replace</key>
-					<data>
-					WE9TSQ==
-					</data>
+					<data>WE9TSQ==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -117,13 +93,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					R1BSVwI=
-					</data>
+					<data>R1BSVwI=</data>
 					<key>Replace</key>
-					<data>
-					WFBSVwI=
-					</data>
+					<data>WFBSVwI=</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -131,13 +103,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					X1NUQQCgDZNQ
-					</data>
+					<data>X1NUQQCgDZNQ</data>
 					<key>Replace</key>
-					<data>
-					WFNUQQCgDZNQ
-					</data>
+					<data>WFNUQQCgDZNQ</data>
 				</dict>
 			</array>
 			<key>Rtc8Allowed</key>
@@ -328,53 +296,31 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>#dpcd-max-link-rate</key>
-				<data>
-				CgAAAA==
-				</data>
+				<data>CgAAAA==</data>
 				<key>#enable-dpcd-max-link-rate-fix</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>AAPL,ig-platform-id</key>
-				<data>
-				AAAWWQ==
-				</data>
+				<data>AAAWWQ==</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal</string>
 				<key>device-id</key>
-				<data>
-				FlkAAA==
-				</data>
+				<data>FlkAAA==</data>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
 				<key>disable-external-gpu</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con1-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con1-pipe</key>
-				<data>
-				CgAAAA==
-				</data>
+				<data>CgAAAA==</data>
 				<key>framebuffer-con1-type</key>
-				<data>
-				AAgAAA==
-				</data>
+				<data>AAgAAA==</data>
 				<key>framebuffer-fbmem</key>
-				<data>
-				AACQAA==
-				</data>
+				<data>AACQAA==</data>
 				<key>framebuffer-patch-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-stolenmem</key>
-				<data>
-				AAAwAQ==
-				</data>
+				<data>AAAwAQ==</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>model</key>
@@ -456,15 +402,11 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				igKEwHRE
-				</data>
+				<data>igKEwHRE</data>
 				<key>MatchOS</key>
 				<string>10.13.x</string>
 				<key>Replace</key>
-				<data>
-				igKEwOtE
-				</data>
+				<data>igKEwOtE</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -472,15 +414,11 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				igKEwHRC
-				</data>
+				<data>igKEwHRC</data>
 				<key>MatchOS</key>
 				<string>10.14.x</string>
 				<key>Replace</key>
-				<data>
-				igKEwOtC
-				</data>
+				<data>igKEwOtC</data>
 			</dict>
 		</array>
 		<key>KextsToPatch</key>
@@ -491,17 +429,13 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				SU9LaXQ=
-				</data>
+				<data>SU9LaXQ=</data>
 				<key>InfoPlistPatch</key>
 				<true/>
 				<key>Name</key>
 				<string>com.apple.driver.AppleIntelLpssI2C</string>
 				<key>Replace</key>
-				<data>
-				SU9LaXM=
-				</data>
+				<data>SU9LaXM=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -509,17 +443,13 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				SU9LaXQ=
-				</data>
+				<data>SU9LaXQ=</data>
 				<key>InfoPlistPatch</key>
 				<true/>
 				<key>Name</key>
 				<string>com.apple.driver.AppleIntelLpssI2CController</string>
 				<key>Replace</key>
-				<data>
-				SU9LaXM=
-				</data>
+				<data>SU9LaXM=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -527,17 +457,13 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				AEFQUExFIFNTRAA=
-				</data>
+				<data>AEFQUExFIFNTRAA=</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>Name</key>
 				<string>com.apple.iokit.IOAHCIBlockStorage</string>
 				<key>Replace</key>
-				<data>
-				AAAAAAAAAAAAAAA=
-				</data>
+				<data>AAAAAAAAAAAAAAA=</data>
 			</dict>
 		</array>
 	</dict>
@@ -553,13 +479,13 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>07/26/2019</string>
+		<string>11/14/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP154.88Z.F000.B00.1907262034</string>
+		<string>MBP152.88Z.F000.B00.1911142159</string>
 		<key>Board-ID</key>
-		<string>Mac-53FDB3D8DB8CA971</string>
+		<string>Mac-827FB448E656EC26</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardType</key>
@@ -573,7 +499,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>1037.0.39.151.1</string>
+		<string>1037.60.58.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -589,7 +515,7 @@
 		<key>PlatformFeature</key>
 		<string>0x02</string>
 		<key>ProductName</key>
-		<string>MacBookPro15,4</string>
+		<string>MacBookPro15,2</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
