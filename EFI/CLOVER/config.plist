@@ -133,17 +133,24 @@
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>HibernationFixup</key>
-		<true/>
+		<false/>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>NeverHibernate</key>
 		<false/>
 		<key>NoEarlyProgress</key>
 		<true/>
+		<key>RtcHibernateAware</key>
+		<true/>
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
 		<integer>4</integer>
+	</dict>
+	<key>CPU</key>
+	<dict>
+		<key>HWPEnable</key>
+		<true/>
 	</dict>
 	<key>Devices</key>
 	<dict>
