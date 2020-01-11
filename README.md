@@ -27,9 +27,11 @@ CPUs Supported:
 * Usb speed
 * Built-in camera
 * Built-in mic 
+* Bluetooth Intel
+
 
 What is __Not__ Working
-* Wifi & Bluetooth Intel
+* Wifi Intel
 
 Hackintosh combojack
 - [hackintosh-stuff](https://github.com/hackintosh-stuff) thanks for his repository to fix jack. https://github.com/hackintosh-stuff/ComboJack
