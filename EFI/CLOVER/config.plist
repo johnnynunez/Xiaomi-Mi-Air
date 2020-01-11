@@ -164,7 +164,7 @@
 			<key>PciRoot(0x0)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,0,0</string>
 				<key>device_type</key>
 				<string>Host bridge</string>
 				<key>model</key>
@@ -173,7 +173,7 @@
 			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,20,0</string>
 				<key>device_type</key>
 				<string>USB controller</string>
 				<key>model</key>
@@ -182,7 +182,7 @@
 			<key>PciRoot(0x0)/Pci(0x15,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,21,0</string>
 				<key>device_type</key>
 				<string>Signal processing controller</string>
 				<key>model</key>
@@ -191,7 +191,7 @@
 			<key>PciRoot(0x0)/Pci(0x15,0x1)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,21,1</string>
 				<key>device_type</key>
 				<string>Signal processing controller</string>
 				<key>model</key>
@@ -200,7 +200,7 @@
 			<key>PciRoot(0x0)/Pci(0x16,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,22,0</string>
 				<key>device_type</key>
 				<string>Communication controller</string>
 				<key>model</key>
@@ -209,7 +209,7 @@
 			<key>PciRoot(0x0)/Pci(0x17,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,23,0</string>
 				<key>device_type</key>
 				<string>SATA controller</string>
 				<key>model</key>
@@ -218,7 +218,7 @@
 			<key>PciRoot(0x0)/Pci(0x1c,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,28,0</string>
 				<key>device_type</key>
 				<string>PCI bridge</string>
 				<key>model</key>
@@ -227,7 +227,7 @@
 			<key>PciRoot(0x0)/Pci(0x1c,0x4)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,28,4</string>
 				<key>device_type</key>
 				<string>PCI bridge</string>
 				<key>model</key>
@@ -236,7 +236,7 @@
 			<key>PciRoot(0x0)/Pci(0x1c,0x4)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal@2,0,0</string>
+				<string>Internal@0,28,4/0,0</string>
 				<key>device_type</key>
 				<string>Network controller</string>
 				<key>model</key>
@@ -245,7 +245,7 @@
 			<key>PciRoot(0x0)/Pci(0x1d,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,29,0</string>
 				<key>device_type</key>
 				<string>PCI bridge</string>
 				<key>model</key>
@@ -254,16 +254,16 @@
 			<key>PciRoot(0x0)/Pci(0x1d,0x0)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal@3,0,0</string>
+				<string>Internal@0,29,0/0,0</string>
 				<key>device_type</key>
 				<string>Non-Volatile memory controller</string>
 				<key>model</key>
-				<string>NVMe SSD Controller SM981/PM981</string>
+				<string>NVMe SSD Controller SM981/PM981/PM983</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,31,0</string>
 				<key>device_type</key>
 				<string>ISA bridge</string>
 				<key>model</key>
@@ -272,7 +272,7 @@
 			<key>PciRoot(0x0)/Pci(0x1f,0x2)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,31,2</string>
 				<key>device_type</key>
 				<string>Memory controller</string>
 				<key>model</key>
@@ -281,20 +281,20 @@
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,31,3</string>
+				<key>device-id</key>
+				<data>cKEAAA==</data>
 				<key>device_type</key>
 				<string>Audio device</string>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
 				<key>layout-id</key>
-				<integer>99</integer>
+				<data>YwAAAA==</data>
 				<key>model</key>
 				<string>Sunrise Point-LP HD Audio</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x4)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,31,4</string>
 				<key>device_type</key>
 				<string>SMBus</string>
 				<key>model</key>
@@ -302,36 +302,38 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key>#dpcd-max-link-rate</key>
-				<data>CgAAAA==</data>
-				<key>#enable-dpcd-max-link-rate-fix</key>
-				<data>AQAAAA==</data>
 				<key>AAPL,ig-platform-id</key>
 				<data>AAAWWQ==</data>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,2,0</string>
 				<key>device-id</key>
 				<data>FlkAAA==</data>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
 				<key>disable-external-gpu</key>
 				<data>AQAAAA==</data>
+				<key>enable-hdmi20</key>
+				<data>AQAAAA==</data>
 				<key>framebuffer-con1-enable</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-con1-pipe</key>
-				<data>CgAAAA==</data>
 				<key>framebuffer-con1-type</key>
 				<data>AAgAAA==</data>
+				<key>framebuffer-con2-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con2-index</key>
+				<data>/////w==</data>
 				<key>framebuffer-fbmem</key>
 				<data>AACQAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
+				<key>framebuffer-portcount</key>
+				<data>AgAAAA==</data>
 				<key>framebuffer-stolenmem</key>
 				<data>AAAwAQ==</data>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
+				<key>framebuffer-unifiedmem</key>
+				<data>AAAAgA==</data>
 				<key>model</key>
-				<string>HD Graphics 620</string>
+				<string>Intel HD Graphics 620</string>
 			</dict>
 		</dict>
 		<key>SetIntelBacklight</key>
@@ -381,7 +383,7 @@
 		<key>EDID</key>
 		<dict>
 			<key>Inject</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>Inject</key>
 		<dict>
