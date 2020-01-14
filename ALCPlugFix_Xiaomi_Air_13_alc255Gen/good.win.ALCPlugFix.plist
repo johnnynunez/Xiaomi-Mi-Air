@@ -8,7 +8,7 @@
     <string>good.win.ALCPlugFix</string>
     <key>ProgramArguments</key>
     <array>
-		<string>/usr/bin/ALCPlugFix</string>
+		<string>/usr/local/bin/ALCPlugFix</string>
     </array>
     <key>RunAtLoad</key>
     <true/>
@@ -16,6 +16,6 @@
     <false/>
 	<!--Shuold be directory that hda-verb at-->
 	<key>WorkingDirectory</key>
-	<string>/usr/bin/</string>
+	<string>/usr/local/bin/</string>
 </dict>
 </plist>
