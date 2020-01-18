@@ -477,6 +477,8 @@
 		<string>0x1A</string>
 		<key>ProductName</key>
 		<string>MacBookPro14,1</string>
+		<key>Trust</key>
+		<true/>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
