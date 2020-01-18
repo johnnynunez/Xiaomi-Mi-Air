@@ -384,6 +384,34 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>SU9LaXQ=</data>
+				<key>InfoPlistPatch</key>
+				<true/>
+				<key>Name</key>
+				<string>com.apple.driver.AppleIntelLpssI2C</string>
+				<key>Replace</key>
+				<data>SU9LaXM=</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>SU9LaXQ=</data>
+				<key>InfoPlistPatch</key>
+				<true/>
+				<key>Name</key>
+				<string>com.apple.driver.AppleIntelLpssI2CController</string>
+				<key>Replace</key>
+				<data>SU9LaXM=</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Enable TRIM for SSD</string>
 				<key>Disabled</key>
 				<false/>
@@ -416,13 +444,11 @@
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP133.88Z.F000.B00.1910301814</string>
+		<string>MBP141.88Z.F000.B00.1910301943</string>
 		<key>Board-ID</key>
-		<string>Mac-A5C67F76ED83108C</string>
+		<string>Mac-B4831CEBD52A0C4C</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
-		<key>BoardSerialNumber</key>
-		<string>C02717403QXHCF9FB</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -434,11 +460,11 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>263.0.0.0.0</string>
+		<string>203.0.0.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
-		<string>0xFC0FE17E</string>
+		<string>0xFC0FE176</string>
 		<key>FirmwareFeaturesMask</key>
 		<string>0xFF1FFF7F</string>
 		<key>LocationInChassis</key>
@@ -450,11 +476,7 @@
 		<key>PlatformFeature</key>
 		<string>0x1A</string>
 		<key>ProductName</key>
-		<string>MacBookPro13,3</string>
-		<key>SerialNumber</key>
-		<string>C02TM02WGTFN</string>
-		<key>SmUUID</key>
-		<string>0F85D35C-FDD4-46FD-93C6-20C78D7553CE</string>
+		<string>MacBookPro14,1</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
