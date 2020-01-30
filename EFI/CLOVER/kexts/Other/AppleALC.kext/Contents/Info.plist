@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>19C57</string>
+	<string>19D76</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -48,36 +48,6 @@
 			<string>com.apple.driver.AppleHDAHardwareConfigDriver</string>
 			<key>HDAConfigDefault</key>
 			<array>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>CodecID</key>
-					<integer>283902610</integer>
-					<key>Comment</key>
-					<string>baesar0 -ALC 292 for e6540 with dock</string>
-					<key>ConfigData</key>
-					<data>
-					ASccEAEnHQEBJx6mAScfkAE3HPABNx0AATce
-					AAE3H0ABRxxAAUcdAQFHHhcBRx+QAUcMAgFX
-					HFABVx1AAVceKwFXHwIBVwwCAWccgAFnHUAB
-					Zx4BAWcfAgFnDAIBhxzwAYcdAAGHHgABhx9A
-					AZccIAGXHZABlx6BAZcfAgGnHHABpx0QAace
-					qwGnHwIBtxzwAbcdAAG3HgABtx9AAdcc8AHX
-					HQAB1x4AAdcfQAHnHPAB5x0AAeceAAHnH0A=
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>55</integer>
-					<key>WakeConfigData</key>
-					<data>
-					AUcMAg==
-					</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
 					<data>
@@ -619,6 +589,32 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>7</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>ALC215 for HP 830 G6 for 965987400abc</string>
+					<key>CodecID</key>
+					<integer>283902485</integer>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHQEBRx4XAUcfmQIXHCACFx0QAhce
+					IQIXHwECFwwCASccMAEnHRgBJx6BAScfAQGX
+					HEABlx0BAZcepgGXH5kBRwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>18</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
@@ -4983,6 +4979,36 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>32</integer>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>CodecID</key>
+					<integer>283902610</integer>
+					<key>Comment</key>
+					<string>baesar0 -ALC 292 for e6540 with dock</string>
+					<key>ConfigData</key>
+					<data>
+					ASccEAEnHQEBJx6mAScfkAE3HPABNx0AATce
+					AAE3H0ABRxxAAUcdAQFHHhcBRx+QAUcMAgFX
+					HFABVx1AAVceKwFXHwIBVwwCAWccgAFnHUAB
+					Zx4BAWcfAgFnDAIBhxzwAYcdAAGHHgABhx9A
+					AZccIAGXHZABlx6BAZcfAgGnHHABpx0QAace
+					qwGnHwIBtxzwAbcdAAG3HgABtx9AAdcc8AHX
+					HQAB1x4AAdcfQAHnHPAB5x0AAeceAAHnH0A=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>55</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
