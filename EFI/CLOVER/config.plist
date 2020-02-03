@@ -36,7 +36,7 @@
 					<key>Comment</key>
 					<string>Rename TPD0._CRS to XCRS</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>Q1JTAKAO</data>
 					<key>Replace</key>
@@ -46,7 +46,7 @@
 					<key>Comment</key>
 					<string>change PCI0.GPI0._STA to PCI0.GPI0.XSTA</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>X1NUQQCgCZNT</data>
 					<key>Replace</key>
@@ -81,6 +81,30 @@
 					<data>X1NUQQCgDZNQ</data>
 					<key>Replace</key>
 					<data>WFNUQQCgDZNQ</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename TPD0.CRS</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X0NSUw==</data>
+					<key>Replace</key>
+					<data>WENSUw==</data>
+					<key>TgtBridge</key>
+					<data>VFBEMA==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename GPI0</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1NUQQ==</data>
+					<key>Replace</key>
+					<data>WFNUQQ==</data>
+					<key>TgtBridge</key>
+					<data>R1BJMA==</data>
 				</dict>
 			</array>
 		</dict>
