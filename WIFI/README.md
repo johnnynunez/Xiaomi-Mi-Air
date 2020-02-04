@@ -1,13 +1,13 @@
-*Works on 10.15.2 but works bether work in Mojave. You must delete SSDT-DRP08.aml if exist in clover/ACPI/patched/
+* Works on 10.15.2 but works bether work in Mojave. You must delete SSDT-DRP08.aml if exist in clover/ACPI/patched/
 
-*Kext Installation in 10.15.x:
+* Kext Installation in 10.15.x:
 Place IO80211Family.kext on the first floor /Library/Extensions, repair permissions, rebuild Cache
 Do not open the system configuration, otherwise it will restart automatically.
 
-*Kext Installation in 10.14.x:
+* Kext Installation in 10.14.x:
 Not install IO80211Family.kext
 
-*Installation AppleIntelWifi:
+* Installation AppleIntelWifi:
 1. Extract the driver file into a .kext file and place it on your desktop.
 2. Open a terminal (equivalent to the command line in Windows).
 3. Enter cd ~ / desktop (this line means entering the desktop and converting the desktop to the current directory)
@@ -16,7 +16,7 @@ Not install IO80211Family.kext
 6. Enter sudo chmod -R 755 * .kext (import the driver)
 7. sudo kextload -v * .kext (load the driver, you can see the name of your device if it is normal)
 
-*Commands:
+* Commands:
 sudo mv ./*.kext /tmp
 sudo chown -R root:wheel /tmp/*.kext
 sudo kextload /tmp/*.kext
