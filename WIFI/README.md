@@ -17,6 +17,6 @@ Not install IO80211Family.kext
 7. sudo kextload -v * .kext (load the driver, you can see the name of your device if it is normal)
 
 * Commands:
-sudo mv ./*.kext /tmp
-sudo chown -R root:wheel /tmp/*.kext
-sudo kextload /tmp/*.kext
+sudo mv ./*.kext /tmp <br />
+sudo chown -R root:wheel /tmp/*.kext <br />
+sudo kextload /tmp/*.kext <br />
