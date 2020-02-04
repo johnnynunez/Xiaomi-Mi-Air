@@ -1,4 +1,4 @@
-* Works on 10.15.2 but works better works on Mojave. <br />
+* Works on 10.15.x but works better works on Mojave. <br />
 You must delete SSDT-DRP08.aml if exist in clover/ACPI/patched/ 
 
 * Kext Installation in 10.15.x:
