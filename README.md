@@ -30,7 +30,7 @@ CPUs Supported:
 * Bluetooth Intel
 * Wifi Intel
 
-What is __Not__ Working
+If your Intel Wifi not working. Be patient. Intel wifi kext really good is the [project](https://github.com/zxystd/AppleIntelWifiAdapter) of [zxystd](https://github.com/zxystd)
 
 Hackintosh combojack
 - [hackintosh-stuff](https://github.com/hackintosh-stuff) thanks for his repository to fix jack. https://github.com/hackintosh-stuff/ComboJack
