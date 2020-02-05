@@ -1,21 +1,23 @@
-* Works on 10.15.x but works better works on Mojave. <br />
-You must delete SSDT-DRP08.aml if exist in clover/ACPI/patched/ 
+## Notes
+* Works on 10.15.x but works better works on Mojave.
+* You must delete SSDT-DRP08.aml if it exists in CLOVER/ACPI/patched/ 
 
-* Kext Installation in 10.15.x:
-Place IO80211Family.kext on the first floor /Library/Extensions, repair permissions, rebuild Cache <br />
-Do not open the system configuration, otherwise it will restart automatically.
+## Installation of IO80211Family
+* Mojave (10.14.x):
+  * Do not install IO80211Family.kext
 
-* Kext Installation in 10.14.x: <br />
-Not install IO80211Family.kext
+* Catalina (10.15.x)
+  * Place IO80211Family.kext in /Library/Extensions, repair permissions and rebuild cache.
+  * Do not open the system configuration screen, otherwise your computer will restart automatically.
 
-* Installation AppleIntelWifi: <br />
+## Installation of AppleIntelWiFi-8265
 1. Extract the driver file into a .kext file and place it on your desktop.
 2. Open a terminal (equivalent to the command line in Windows).
-3. Enter cd ~ / desktop (this line means entering the desktop and converting the desktop to the current directory)
-4. Enter sudo chown -R root: wheel * .kext (* .kext is your driver file. The role of this line is Grant administrator permissions for the following operations)
-5. Enter your root password and press Enter. If the password is not available, you can press Enter.
-6. Enter sudo chmod -R 755 * .kext (import the driver)
-7. sudo kextload -v * .kext (load the driver, you can see the name of your device if it is normal)
+3. Enter `cd ~ /Desktop` With this command you change to the Desktop as your working directory.
+4. Enter `sudo chown -R root: wheel * .kext` "* .kext" is reffering to your driver file. The role of this line is to grant administrator permissions for the next operations.
+5. Now enter your root password and press Enter. If the password is not available, you can just press Enter.
+6. Enter `sudo chmod -R 755 * .kext` Set appropriate permissions for the driver
+7. Enter `sudo kextload -v * .kext` This loads the driver, you can see the name of your device if it works.
 
 * Commands: <br />
 sudo mv ./*.kext /tmp <br />
