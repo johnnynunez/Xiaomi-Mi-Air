@@ -5,14 +5,18 @@
 ## Installation of IO80211Family
 * Now, is not needed
 
-## Installation of AppleIntelWiFi-8265
-1. Extract the driver file into a .kext file and place it on your desktop.
-2. Open a terminal (equivalent to the command line in Windows).
-3. Enter `cd ~ /Desktop` With this command you change to the Desktop as your working directory.
-4. Enter `sudo chown -R root: wheel * .kext` "* .kext" is reffering to your driver file. The role of this line is to grant administrator permissions for the next operations.
-5. Now enter your root password and press Enter. If the password is not available, you can just press Enter.
-6. Enter `sudo chmod -R 755 * .kext` Set appropriate permissions for the driver
-7. Enter `sudo kextload -v * .kext` This loads the driver, you can see the name of your device if it works.
+## Installation of AppleIntelWiFi-8265 instructions [gplast](https://github.com/daliansky/XiaoMi-Pro-Hackintosh/issues/330#issuecomment-583196191)
+1. Download AppleIntelWiFi.kext.zip
+2.Unzip it
+3. Open AppleIntelWiFi.kext/Contents/Info.plist with your favorite editor
+4. Find and Change the following lines based on your wifi (line 58, 60)
+ *BSSID
+  *NAMEOFWIFI
+*PWD
+*PASSWORD
+5.sudo chown -R root:wheel AppleIntelWiFi.kext
+6.sudo kextload -v AppleIntelWiFi.kext/
+7.Check if the message is : AppleIntelWiFi.kext loaded successfully (or already loaded).
 
 * Commands: <br />
 sudo mv ./*.kext /tmp <br />
