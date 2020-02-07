@@ -1,14 +1,9 @@
 ## Notes
-* Works on 10.15.x but works better works on Mojave.
+* Works on 10.15.x
 * You must delete SSDT-DRP08.aml if it exists in CLOVER/ACPI/patched/ 
 
 ## Installation of IO80211Family
-* Mojave (10.14.x):
-  * Do not install IO80211Family.kext
-
-* Catalina (10.15.x)
-  * Place IO80211Family.kext in /Library/Extensions, repair permissions and rebuild cache.
-  * Do not open the system configuration screen, otherwise your computer will restart automatically.
+* Now, is not needed
 
 ## Installation of AppleIntelWiFi-8265
 1. Extract the driver file into a .kext file and place it on your desktop.
