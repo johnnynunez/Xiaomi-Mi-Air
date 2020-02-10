@@ -112,6 +112,9 @@ If you're having audio problems, especially with headphones, run the install.com
 ### (optional) Hackintosh combojack how to
 [hackintosh-stuff](https://github.com/hackintosh-stuff) thanks to his repository we can fix the headphone jack: https://github.com/hackintosh-stuff/ComboJack
 
+### (optional) Display Color Profile:
+Copy the .icm files from the [ColorProfile](https://github.com/johnnync13/Xiaomi-Mi-Air/tree/master/ColorProfile) folder to /Users/<your_user>/Library/ColorSync/Profiles/ and pick one in System Preferences, Displays, Color tab. They have different white balance levels so pick whichever you like.
+
 # Disclaimer!
 Use these files and this howto at your own risk. I'm not responsible in any way for lost data, damage to software or hardware or anything else that might go wrong. This works for me but might not for you.
 
