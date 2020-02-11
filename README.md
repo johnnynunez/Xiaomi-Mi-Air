@@ -66,9 +66,12 @@ Pro's (+)
 + Most secure (no csr 67 flag, SIP, the macOS security system, stays on)
 + Most compatible with future upgrades of macOS
 + No need to put kext files in /Library/Extensions/, therefore 'vanilla' macOS install
++ Faster than Clover
 
 Con's (-)
 - Complex to customise (Useful tool to edit config: https://github.com/corpnewt/ProperTree)
+- Unnofficial version [OpenCore Configurator](https://mackie100projects.altervista.org/opencore-configurator/)
+- Without Theme UI until release.
 
 ## Installing from macOS:
 ### Clover method:
