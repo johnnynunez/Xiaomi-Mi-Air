@@ -338,7 +338,6 @@
 	<dict>
 		<key>Hide</key>
 		<array>
-			<string>Preboot</string>
 			<string>Recovery</string>
 		</array>
 		<key>Mouse</key>
