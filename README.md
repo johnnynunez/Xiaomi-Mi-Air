@@ -16,9 +16,10 @@ Hi, this is Johnny, I'm an Engineering student. Life and university studies are 
 
 ### What do I need?
 * Xiaomi Notebook Air 2018 13.3" i5-8250u / i7-8550u
-* Real mac or windows PC to create the install USB
+* macOS or windows PC to create the install USB
 * 8GB or larger USB stick (USB3 preferred for speed)
 * Latest copy of these files (https://github.com/johnnync13/Xiaomi-Mi-Air/releases)
+* (optional for multiboot) Second (M.2 SATA) SSD installed inside the laptop.
 * (possibly) USB mouse for install until trackpad is working
 * (possibly) For macOS 10.15: a natively supported (e.g. Apple) USB Ethernet adapter for installation
 
@@ -47,30 +48,45 @@ Hi, this is Johnny, I'm an Engineering student. Life and university studies are 
 # Installation
 Sounds good! Where do we start? You need a computer with macOS or Windows:
 
-## From macOS:
+## Clover or OpenCore?
+First let's figure out if we would like to use Clover or OpenCore. The pro's / con's listed:
+
+### Clover
++ Most used, best supported online
++ Easy to configure with [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/)
+- Might be less compatible with macOS updates in the future
+- Less secure (csr 67 flag needed to inject kext drivers)
+- Need to put kext files in /Library/Extensions/
+
+### OpenCore
++ Most secure (no csr 67 flag, SIP, the macOS security system, stays On)
++ Most compatible with future upgrades of macOS
+- No need to put kext files in /Library/Extensions/, therfore 'vanilla' macOS install
+- Complex config, no graphical tool
+
+## Installing from macOS:
 ### Clover method:
-* On a real mac, create your macOS USB install media (e.g. https://support.apple.com/en-us/HT201372)
-* Install Clover bootloader on USB stick. Select 'Install to ESP' (https://sourceforge.net/projects/cloverefiboot/files/latest/download)
+* On your mac, create your macOS USB install media (e.g. https://support.apple.com/en-us/HT201372)
 * Mount the ESP (EFI System Partition) on your USB stick: (check that you mount the correct EFI partition, numbers will vary!!!)
 
 ```
 diskutil list
 sudo diskutil mount /dev/disk3s1
 ```
-* Copy and overwrite the EFI/CLOVER folder from this website to the EFI folder on the ESP.
-* Now boot the Xiaomi laptop from the install media (if trackpad is not working, use USB mouse)
-* Open Disk Utility and format the builtin SSD with APFS (will delete all your files!!!)
+* Copy and overwrite the contents of the EFI folder on your USB stick with the contents of the EFI folder from this website.
+* Eject the USB stick from your computer and insert in the Xiaomi laptop.
+* Now boot the Xiaomi laptop from the install media (if trackpad is not working, use USB mouse. If network connection needed, use a Apple compatible USB Ethernet adapter)
+* Open Disk Utility and format the builtin SSD or second SSD with APFS (will delete all your files!!!)
 * Install macOS 
 * After install, boot from USB again but select SSD to boot from Clover Bootloader
-* Do initial macOS setup (use USB ethernet adapter for internet)
-* Install Clover on the SSD. Select 'Install to ESP' (https://sourceforge.net/projects/cloverefiboot/files/latest/download)
+* Do initial macOS setup (use USB Ethernet adapter for internet)
 * Mount the ESP (EFI System Partition) on your SSD (check that you mount the correct EFI partition, numbers will vary!!!)
 
 ```
 diskutil list
 sudo diskutil mount /dev/disk0s1
 ```
-* Copy and overwrite the EFI/CLOVER folder from this website to the EFI folder on the ESP.
+* Copy and overwrite the contents of the EFI folder from this website to the EFI folder on the ESP on your SSD.
 * Copy all the Kernel Extensions (kexts) from the EFI/CLOVER/kexts/Other to your system's /Library/Extensions folder (this is important, otherwise keyboard/trackpad and other devices might not work)
 * Execute these commands in Terminal to rebuild Kernel Extension Cache:
 
@@ -83,10 +99,33 @@ sudo touch /System/Library/Extensions/
 sudo touch /Library/Extensions/
 sudo kextcache -i / && sudo kextcache -u /
 ```
+* Remove the USB stick from the laptop
 * Done! Reboot to enable all the kexts. Enjoy your Hackintosh!
 
 ### OpenCore method:
-Coming soon
+* On your mac, create your macOS USB install media (e.g. https://support.apple.com/en-us/HT201372)
+* Mount the ESP (EFI System Partition) on your USB stick: (check that you mount the correct EFI partition, numbers will vary!!!)
+
+```
+diskutil list
+sudo diskutil mount /dev/disk3s1
+```
+* Copy and overwrite the contents of the EFI folder on your USB stick with the contents of the EFIOC (opencore) folder from this website.
+* Eject the USB stick from your computer and insert in the Xiaomi laptop.
+* Now boot the Xiaomi laptop from the install media (if trackpad is not working, use USB mouse. If network connection needed, use a Apple compatible USB Ethernet adapter)
+* Open Disk Utility and format the builtin SSD or second SSD with APFS (will delete all your files!!!)
+* Install macOS 
+* After install, boot from USB again but select SSD to boot from Clover Bootloader
+* Do initial macOS setup (use USB Ethernet adapter for internet)
+* Mount the ESP (EFI System Partition) on your SSD (check that you mount the correct EFI partition, numbers will vary!!!)
+
+```
+diskutil list
+sudo diskutil mount /dev/disk0s1
+```
+* Copy and overwrite the contents of the EFIOC (opencore) folder from this website to the EFI folder on the ESP on your SSD.
+* Remove the USB stick from the laptop
+* Done! Reboot and enjoy macOS.
 
 ## From Windows:
 ### Clover method:
