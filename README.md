@@ -274,7 +274,7 @@ Using OpenCore:
 * Reboot. If still not working, try resetting the NVRAM from OpenCore boot menu.
 
 **IMPORTANT:**
-* It is really important on OpenCore, that the laptop have unlocked CFG Lock. It is important to CPU, sleep/wake and better behavior like native macOS. It is very easy on the most laptops because the BIOS has option in macOS. But on Xiaomi Laptops, it is very simple with some steps on Windows. Maybe, make a video about it. 
+* It is really important on OpenCore, that the laptop have unlocked CFG Lock. It is important to CPU, sleep/wake and better behavior like native macOS. It is very easy on the most laptops because the BIOS has option in menu. But on Xiaomi Laptops, it is very simple with some steps on Windows. Maybe, make a video about it. 
 
 ### more coming soon
 
