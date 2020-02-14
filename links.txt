@@ -1,0 +1,10 @@
+https://github.com/CHEF-KOCH/Intel-ME-Firmware-Repository
+https://github.com/platomav/MEAnalyzer
+https://www.win-raid.com/t4639f16-TOOL-H-EZE-Insyde-quot-Easy-BIOS-Editor-quot.html
+https://github.com/LongSoft/UEFITool/releases
+https://github.com/Cr0wTom/Mi-Notebook-Pro-Mods
+https://www.win-raid.com/
+https://github.com/acidanthera/OpenCorePkg
+https://www.win-raid.com/f39-Intel-Management-Engine.html
+https://github.com/LongSoft/UEFITool/releases
+https://github.com/LongSoft/Universal-IFR-Extractor/releases
