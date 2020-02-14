@@ -1,4 +1,5 @@
 https://github.com/CHEF-KOCH/Intel-ME-Firmware-Repository
+https://www.win-raid.com/t596f39-Intel-Management-Engine-Drivers-Firmware-amp-System-Tools.html
 https://github.com/platomav/MEAnalyzer
 https://www.win-raid.com/t4639f16-TOOL-H-EZE-Insyde-quot-Easy-BIOS-Editor-quot.html
 https://github.com/LongSoft/UEFITool/releases
