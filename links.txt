@@ -9,4 +9,4 @@ https://github.com/acidanthera/OpenCorePkg
 https://www.win-raid.com/f39-Intel-Management-Engine.html
 https://github.com/LongSoft/UEFITool/releases
 https://github.com/LongSoft/Universal-IFR-Extractor/releases
-fptw64 -f YourBiosName.bin -bios
+fptw64 -d backup.bin -bios
