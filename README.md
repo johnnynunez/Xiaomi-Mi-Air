@@ -254,6 +254,28 @@ If you're having audio problems, especially with headphones, run the install.com
 ### (optional) Display Color Profile:
 Copy the .icm files from the [ColorProfile](https://github.com/johnnync13/Xiaomi-Mi-Air/tree/master/ColorProfile) folder to /Users/<your_user>/Library/ColorSync/Profiles/ and pick one in System Preferences, Displays, Color tab. They have different white balance levels so pick whichever you like.
 
+### (optional) High DPI display fix:
+Since the text on the 13" display can be quite small for many people in 1920x1080 resolution, it's possible to use some of the High DPI scaling features of macOS. To enable those:
+
+* Boot into the Recovery partition (in Clover hit (Fn+)F3 to show all partitions)
+* We need to temporarily disable SIP. Run Terminal from the Utilities menu and run:
+```
+csrutil disable
+```
+* Reboot into normal macOS
+* Open Terminal and run the [hidpi.sh](https://github.com/johnnync13/Xiaomi-Mi-Air/blob/master/HighDPI/hidpi.sh) script:
+```
+bash -c "$(curl -fsSL https://github.com/johnnync13/Xiaomi-Mi-Air/raw/master/HighDPI/hidpi.sh)"
+```
+* Choose (1) Enable, (3) MacBook Pro and (1) 1920x1080 Display.
+* Reboot and test your new Display settings in System Preferences.
+* When all set, reboot back into Recovery and enable SIP again:
+```
+csrutil enable
+```
+* Reboot into macOS. Done!
+
+
 # Troubleshooting
 ### Some device in my system is not working under macOS!
 Using Clover:
@@ -283,6 +305,9 @@ Use these files and this howto at your own risk. I'm not responsible in any way 
 
 # Credits
 - [yllwfsh](https://github.com/yllwfsh) for maintenance, fix issues and create a good friendly README
+
+- [xzhih](https://github.com/xzhih) For the excellent [hidpi](https://github.com/xzhih/one-key-hidpi) script.
+
 - [stevezhengshiqi](https://github.com/stevezhengshiqi) He is a good developer. I'm learning a lot about how to patch problems. Thanks for PCIList.aml and more.
 
 - [RehabMan](https://github.com/RehabMan) Updated [OS-X-Clover-Laptop-Config](https://github.com/RehabMan/OS-X-Clover-Laptop-Config) and [Laptop-DSDT-Patch](https://github.com/RehabMan/Laptop-DSDT-Patch) and [OS-X-USB-Inject-All](https://github.com/RehabMan/OS-X-USB-Inject-All) for maintenance
@@ -290,5 +315,6 @@ Use these files and this howto at your own risk. I'm not responsible in any way 
 - [vit9696](https://github.com/vit9696) Updated [Lilu](https://github.com/vit9696/Lilu) and [AppleALC](https://github.com/vit9696/AppleALC) and [WhateverGreen](https://github.com/vit9696/WhateverGreen)  for maintenance
 
 - [alexandred](https://github.com/alexandred) Updated [Voodooi2c](https://github.com/alexandred/VoodooI2C) for maintenance
+
 - [Community Chinese](https://github.com/a565109863) Updated [Intel Wifi](https://bbs.pcbeta.org/forum.php?mod=viewthread&tid=1838489) for intel wifi and tutorial
 
