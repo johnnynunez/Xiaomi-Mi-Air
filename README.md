@@ -252,7 +252,7 @@ If you're having audio problems, especially with headphones, run the install.com
 [hackintosh-stuff](https://github.com/hackintosh-stuff) thanks to his repository we can fix the headphone jack: https://github.com/hackintosh-stuff/ComboJack
 
 ### (optional) Display Color Profile:
-Copy the .icm files from the [ColorProfile](https://github.com/johnnync13/Xiaomi-Mi-Air/tree/master/ColorProfile) folder to /Users/<your_user>/Library/ColorSync/Profiles/ and pick one in System Preferences, Displays, Color tab. They have different white balance levels so pick whichever you like.
+Copy the .icm files from the [ColorProfile](https://github.com/johnnync13/Xiaomi-Mi-Air/tree/master/ColorProfile) folder to /Library/ColorSync/Profiles/ and pick one in System Preferences, Displays, Color tab. They have different white balance levels so pick whichever you like.
 
 ### (optional) High DPI display fix:
 Since the text on the 13" display can be quite small for many people in 1920x1080 resolution, it's possible to use some of the High DPI scaling features of macOS. To enable those:
