@@ -23,7 +23,7 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.0.1</string>
+	<string>1.0.2</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -162,31 +162,27 @@
 		</dict>
 	</dict>
 	<key>LSMinimumSystemVersion</key>
-	<string>10.15</string>
+	<string>10.13</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2019 钟先耀. All rights reserved.</string>
 	<key>OSBundleLibraries</key>
 	<dict>
 		<key>com.apple.iokit.IOACPIFamily</key>
-		<string>1.0.0</string>
+		<string>1.0</string>
 		<key>com.apple.iokit.IOBluetoothFamily</key>
-		<string>2.0.0</string>
-		<key>com.apple.iokit.IOBluetoothHostControllerTransport</key>
-		<string>7.0f8</string>
-		<key>com.apple.iokit.IOBluetoothHostControllerUSBTransport</key>
-		<string>7.0f8</string>
+		<string>1.0</string>
 		<key>com.apple.iokit.IOUSBHostFamily</key>
-		<string>1.2</string>
+		<string>1.0</string>
 		<key>com.apple.kpi.bsd</key>
-		<string>19.0</string>
+		<string>8.0</string>
 		<key>com.apple.kpi.iokit</key>
-		<string>19.0</string>
+		<string>8.0</string>
 		<key>com.apple.kpi.libkern</key>
-		<string>19.0</string>
+		<string>8.0</string>
 		<key>com.apple.kpi.mach</key>
-		<string>19.0</string>
+		<string>8.0</string>
 		<key>com.apple.kpi.unsupported</key>
-		<string>19.0</string>
+		<string>8.0</string>
 	</dict>
 </dict>
 </plist>
