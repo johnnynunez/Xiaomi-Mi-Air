@@ -243,7 +243,7 @@ This can be a bit of a challenge, and outside of the scope of this repo, but if 
 ### (optional) WiFi
 Still very buggy, but improving fast. Have a look [here](https://github.com/johnnync13/Xiaomi-Mi-Air/tree/master/WIFI)
 
-If your Intel Wifi not working, please be patient. The Intel wifi kext is really good, it's a [project](https://github.com/zxystd/AppleIntelWifiAdapter) of [zxystd](https://github.com/zxystd)
+If your Intel Wifi not working, please **be patient**.
 
 ### (optional) Garbled Audio Problems
 If you're having audio problems, especially with headphones, run the install.command script inside the [ALCPlugFix](https://github.com/johnnync13/Xiaomi-Mi-Air/tree/master/ALCPlugFix_Xiaomi_Air_13_alc255Gen) folder. This will install a fix, then reboot. Audio should be better.
