@@ -2,7 +2,7 @@
 * Works on 10.15.x. (If you are on 10.14.x, read [this](https://github.com/zxystd/itlwm/issues/5#issuecomment-600401196))
 * You must delete SSDT-DRP08.aml if it exists in EFI/CLOVER/ACPI/patched/ or EFI/OC/ACPI/
 * Only the **non-encrypted** Wi-Fi connection including mobile hotspot is currently supported. Wi-Fi SSID is hardcoded as `Redmi` and will auto-connect once the Kext is loaded.
-
+* All credits go to [zxystd](https://github.com/zxystd). His project [itlwm](https://github.com/zxystd/itlwm).
 ## Usage
 1. Make sure you have `Redmi` network available. 
 2. Download wifi kext or build it by yourself.
