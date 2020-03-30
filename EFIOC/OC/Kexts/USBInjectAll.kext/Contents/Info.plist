@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>19C57</string>
+	<string>19D76</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
 	<string>USBInjectAll</string>
 	<key>CFBundleGetInfoString</key>
-	<string>0.7.4 Copyright © 2015 RehabMan. All rights reserved.</string>
+	<string>0.7.5 Copyright © 2015 RehabMan. All rights reserved.</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.rehabman.driver.USBInjectAll</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -19,7 +19,7 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.7.4</string>
+	<string>0.7.5</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -27,11 +27,11 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>0.7.4</string>
+	<string>0.7.5</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>11C29</string>
+	<string>11C504</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
@@ -41,7 +41,7 @@
 	<key>DTXcode</key>
 	<string>1130</string>
 	<key>DTXcodeBuild</key>
-	<string>11C29</string>
+	<string>11C504</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>ConfigurationData</key>
@@ -3644,6 +3644,35 @@
 			<key>model</key>
 			<string>MacBookPro15,4</string>
 		</dict>
+		<key>MacBookPro16,1-ABPC</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.rehabman.driver.USBInjectAll</string>
+			<key>IOClass</key>
+			<string>USBInjectAll</string>
+			<key>IOProviderClass</key>
+			<string>AppleBusPowerController</string>
+			<key>kName</key>
+			<string>AppleBusPowerController</string>
+			<key>model</key>
+			<string>MacBookPro16,1</string>
+		</dict>
+		<key>MacBookPro16,1-XHC</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.rehabman.driver.USBInjectAll</string>
+			<key>IOClass</key>
+			<string>USBInjectAll</string>
+			<key>IONameMatch</key>
+			<array>
+				<string>XHC</string>
+				<string>XHCI</string>
+			</array>
+			<key>IOProviderClass</key>
+			<string>AppleUSBXHCIPCI</string>
+			<key>model</key>
+			<string>MacBookPro16,1</string>
+		</dict>
 		<key>MacBookPro6,1-ABPC</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
@@ -4591,6 +4620,85 @@
 			<string>AppleUSBXHCIPCI</string>
 			<key>model</key>
 			<string>MacPro6,1</string>
+		</dict>
+		<key>MacPro7,1-ABPC</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.rehabman.driver.USBInjectAll</string>
+			<key>IOClass</key>
+			<string>USBInjectAll</string>
+			<key>IOProviderClass</key>
+			<string>AppleBusPowerController</string>
+			<key>kName</key>
+			<string>AppleBusPowerController</string>
+			<key>model</key>
+			<string>MacPro7,1</string>
+		</dict>
+		<key>MacPro7,1-EHCI</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.rehabman.driver.USBInjectAll</string>
+			<key>IOClass</key>
+			<string>USBInjectAll</string>
+			<key>IONameMatch</key>
+			<array>
+				<string>EH01</string>
+				<string>EH02</string>
+			</array>
+			<key>IOProviderClass</key>
+			<string>AppleUSBEHCIPCI</string>
+			<key>model</key>
+			<string>MacPro7,1</string>
+		</dict>
+		<key>MacPro7,1-HUB1</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.rehabman.driver.USBInjectAll</string>
+			<key>IOClass</key>
+			<string>USBInjectAll</string>
+			<key>IOProbeScore</key>
+			<integer>5000</integer>
+			<key>IOProviderClass</key>
+			<string>AppleUSB20InternalHub</string>
+			<key>kName</key>
+			<string>HUB1</string>
+			<key>locationID</key>
+			<integer>487587840</integer>
+			<key>model</key>
+			<string>MacPro7,1</string>
+		</dict>
+		<key>MacPro7,1-HUB2</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.rehabman.driver.USBInjectAll</string>
+			<key>IOClass</key>
+			<string>USBInjectAll</string>
+			<key>IOProbeScore</key>
+			<integer>5000</integer>
+			<key>IOProviderClass</key>
+			<string>AppleUSB20InternalHub</string>
+			<key>kName</key>
+			<string>HUB2</string>
+			<key>locationID</key>
+			<integer>437256192</integer>
+			<key>model</key>
+			<string>MacPro7,1</string>
+		</dict>
+		<key>MacPro7,1-XHC</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.rehabman.driver.USBInjectAll</string>
+			<key>IOClass</key>
+			<string>USBInjectAll</string>
+			<key>IONameMatch</key>
+			<array>
+				<string>XHC</string>
+				<string>XHCI</string>
+			</array>
+			<key>IOProviderClass</key>
+			<string>AppleUSBXHCIPCI</string>
+			<key>model</key>
+			<string>MacPro7,1</string>
 		</dict>
 		<key>Macmini5,1-ABPC</key>
 		<dict>
