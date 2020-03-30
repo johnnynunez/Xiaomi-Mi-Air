@@ -1180,7 +1180,7 @@
 				<key>Arguments</key>
 				<string></string>
 				<key>Auxiliary</key>
-				<false/>
+				<true/>
 				<key>Comment</key>
 				<string>Clean NVRAM to reduce conflicts with other bootloaders</string>
 				<key>Enabled</key>
