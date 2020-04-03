@@ -303,6 +303,7 @@ Using OpenCore:
 ### Tutorial to modify BIOS  
 * I would like make a script or others methos but this tutorial is like OpenCore method.  
 * Soon I upload a csv with all xiaomi laptops that I have on the github with hexadecimal variables to unlock CFG Lock, MC Lock, SpeedShift and more.    
+* ## THIS TUTORIAL IS AN EXAMPLE, NOT GET THE VALUES AND VARIABLES
   
 ## First of all, I am not responsible for what can happen to your laptop  
   
