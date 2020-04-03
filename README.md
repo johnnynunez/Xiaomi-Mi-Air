@@ -316,6 +316,7 @@ it is possible that for example, SpeedShift is enabled before.
 setup_var is to call method function.  
 0x3C is the location memory on bios that is variable CFG Lock.    
 0x00 is to disable and 0x01 is to enable. I put the example here.  
+(default) is how the variable is when you install a BIOS, that is, by the manufacturer.  
 
 One Of: CFG Lock, VarStoreInfo (VarOffset/VarName): 0x3C, VarStore: 0x3, QuestionId: 0x146, Size: 1, Min:   0x0, Max 0x1, Step: 0x0 {05 91 8A 02 8B 02 46 01 03 00 3C 00 10 10 00 01 00}  
 0x149413 			One Of Option: Disabled, Value (8 bit): 0x0 {09 07 04 00 00 00 00}  
