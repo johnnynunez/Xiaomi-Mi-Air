@@ -301,7 +301,7 @@ Using OpenCore:
 # BIOS Modification
 
 ### Tutorial to modify BIOS  
-* I would like make a script or others methos but this tutorial is like OpenCore method.  
+* I would like make a script or others methods but this tutorial is like OpenCore method.  
 * Soon I upload a csv with all xiaomi laptops that I have on the github with hexadecimal variables to unlock CFG Lock, MC Lock, SpeedShift and more.    
 * ## THIS TUTORIAL IS AN EXAMPLE, NOT GET THE VALUES AND VARIABLES
   
@@ -324,7 +324,7 @@ One Of: CFG Lock, VarStoreInfo (VarOffset/VarName): 0x3C, VarStore: 0x3, Questio
 0x14941A 			One Of Option: Enabled, Value (8 bit): 0x1 (default) {09 07 03 00 30 00 01}  
 0x149421 		End One Of {29 02}  
   
-5- You can set up more variables to modify Bios. If you want exit, you must write rebook and click enter on keyboard.  
+5- You can set up more variables to modify Bios. If you want exit, you must write reboot and click enter on keyboard.  
   
 6- You can verify the CFG is unlocked or other parametres like SpeedShift is enabled in hackintool, section Utilities and press button Get AppleIntelInfo.  
 
