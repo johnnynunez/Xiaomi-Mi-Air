@@ -312,7 +312,7 @@ Using OpenCore:
 4- Write a command method, for example to unlock cfg lock: setup_var 0x3C 0x00  
 Other example, SpeedShift to enable: setup_var 0xB 0x01  
 it is possible that for example, SpeedShift is enabled before.     
-* Explanation:  
+* ### Explanation:  
 setup_var is to call method function.  
 0x3C is the location memory on bios that is variable CFG Lock.    
 0x00 is to disable and 0x01 is to enable. I put the example here.  
