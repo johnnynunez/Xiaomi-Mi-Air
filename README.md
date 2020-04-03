@@ -298,7 +298,7 @@ Using OpenCore:
 **IMPORTANT:**
 * It is really important on OpenCore, that the laptop have unlocked CFG Lock. It is important to CPU, sleep/wake and better behavior like native macOS. It is very easy on the most laptops because the BIOS has option in menu. But on Xiaomi Laptops, it is very simple with some steps on Windows. Maybe, make a video about it. 
 
-# Bios Modification
+# BIOS Modification
 
 ### Tutorial to modify BIOS
 * I would like make a script or others methos but this tutorial is like OpenCore method.
