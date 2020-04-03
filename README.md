@@ -298,7 +298,33 @@ Using OpenCore:
 **IMPORTANT:**
 * It is really important on OpenCore, that the laptop have unlocked CFG Lock. It is important to CPU, sleep/wake and better behavior like native macOS. It is very easy on the most laptops because the BIOS has option in menu. But on Xiaomi Laptops, it is very simple with some steps on Windows. Maybe, make a video about it. 
 
-### more coming soon
+### Tutorial to modify BIOS
+* I would make to do a script or others methos but It is like OpenCore method.
+* Soon I upload a csv with all xiaomi laptops that I have on the github with hexadecimal variables to unlock CFG Lock, MC Lock, SpeedShift and more.  
+
+## First of all, I am not responsible for what can happen to your laptop
+
+1- Boot with OpenCore
+2- Click on space key on keyboard.
+3- Select partition Mod Grub Shell
+4- Write a command method, for example to unlock cfg lock: setup_var 0x3C 0x00
+Other example, SpeedShift to enable: setup_var 0xB 0x01
+it is possible that for example, SpeedShift is enabled before.   
+Explanation:
+setup_var is to call method function.
+0x3C is the location memory on bios that is variable CFG Lock.  
+0x00 is to disable and 0x01 is to enable. I put the example here.
+
+One Of: CFG Lock, VarStoreInfo (VarOffset/VarName): 0x3C, VarStore: 0x3, QuestionId: 0x146, Size: 1, Min: 0x0, Max 0x1, Step: 0x0 {05 91 8A 02 8B 02 46 01 03 00 3C 00 10 10 00 01 00}
+0x149413 			One Of Option: Disabled, Value (8 bit): 0x0 {09 07 04 00 00 00 00}
+0x14941A 			One Of Option: Enabled, Value (8 bit): 0x1 (default) {09 07 03 00 30 00 01}
+0x149421 		End One Of {29 02}
+
+5- You can set up more variables to modify Bios. If you want exit, you must write rebook and click enter on keyboard.
+
+6- You can verify the CFG is unlocked or other parametres like SpeedShift is enabled in hackintool, section Utilities and press button Get AppleIntelInfo.
+
+
 
 # Disclaimer!
 Use these files and this howto at your own risk. I'm not responsible in any way for lost data, damage to software or hardware or anything else that might go wrong. This works for me but might not for you.

@@ -583,8 +583,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -601,8 +599,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -619,8 +615,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -637,8 +631,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -655,8 +647,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -689,8 +679,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -707,8 +695,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -725,8 +711,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -743,8 +727,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -761,8 +743,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -779,8 +759,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -797,8 +775,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -815,8 +791,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -833,8 +807,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -867,8 +839,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -885,8 +855,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -903,8 +871,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -921,8 +887,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -939,8 +903,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -957,8 +919,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -975,8 +935,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -1033,8 +991,6 @@
 				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -1063,8 +1019,6 @@
 				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
-				<key>MatchKernel</key>
-				<string>18.5.0</string>
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -1097,8 +1051,6 @@
 			<true/>
 			<key>XhciPortLimit</key>
 			<false/>
-			<key>ThirdPartyTrim</key>
-			<true/>
 		</dict>
 	</dict>
 	<key>Misc</key>
@@ -1111,8 +1063,6 @@
 		<dict>
 			<key>HibernateMode</key>
 			<string>Auto</string>
-			<key>PickerMode</key>
-			<string>External</string>
 			<key>HideAuxiliary</key>
 			<true/>
 			<key>HideSelf</key>
@@ -1121,6 +1071,8 @@
 			<integer>0</integer>
 			<key>PickerAudioAssist</key>
 			<false/>
+			<key>PickerMode</key>
+			<string>External</string>
 			<key>PollAppleHotKeys</key>
 			<true/>
 			<key>ShowPicker</key>
@@ -1155,10 +1107,10 @@
 			<integer>6</integer>
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
-			<key>Vault</key>
-			<string>Optional</string>
 			<key>ScanPolicy</key>
 			<integer>0</integer>
+			<key>Vault</key>
+			<string>Optional</string>
 		</dict>
 		<key>Tools</key>
 		<array>
@@ -1189,6 +1141,20 @@
 				<string>Clean NVRAM</string>
 				<key>Path</key>
 				<string>CleanNvram.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<true/>
+				<key>Comment</key>
+				<string>To Modify BIOS</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Name</key>
+				<string>Mod GRUB Shell</string>
+				<key>Path</key>
+				<string>modGRUBShell.efi</string>
 			</dict>
 		</array>
 	</dict>
@@ -1314,6 +1280,23 @@
 	</dict>
 	<key>UEFI</key>
 	<dict>
+		<key>Audio</key>
+		<dict>
+			<key>AudioCodec</key>
+			<integer>0</integer>
+			<key>AudioDevice</key>
+			<string>PciRoot(0x0)/Pci(0x1f,0x3)</string>
+			<key>AudioOut</key>
+			<integer>0</integer>
+			<key>AudioSupport</key>
+			<false/>
+			<key>MinimumVolume</key>
+			<integer>20</integer>
+			<key>PlayChime</key>
+			<false/>
+			<key>VolumeAmplifier</key>
+			<integer>125</integer>
+		</dict>
 		<key>ConnectDrivers</key>
 		<true/>
 		<key>Drivers</key>
@@ -1324,23 +1307,6 @@
 			<string>AudioDxe.efi</string>
 			<string>OpenCanopy.efi</string>
 		</array>
-		<key>Audio</key>
-		<dict>
-			<key>AudioSupport</key>
-			<false/>
-			<key>AudioDevice</key>
-			<string>PciRoot(0x0)/Pci(0x1f,0x3)</string>
-			<key>AudioCodec</key>
-			<integer>0</integer>
-			<key>AudioOut</key>
-			<integer>0</integer>
-			<key>MinimumVolume</key>
-			<integer>20</integer>
-			<key>PlayChime</key>
-			<false/>
-			<key>VolumeAmplifier</key>
-			<integer>125</integer>
-		</dict>
 		<key>Input</key>
 		<dict>
 			<key>KeyForgetThreshold</key>
@@ -1362,26 +1328,26 @@
 		</dict>
 		<key>Output</key>
 		<dict>
-			<key>TextRenderer</key>
-			<string>BuiltinGraphics</string>
+			<key>ClearScreenOnModeSwitch</key>
+			<false/>
 			<key>ConsoleMode</key>
 			<string></string>
-			<key>Resolution</key>
-			<string>Max</string>
-			<key>ClearScreenOnModeSwitch</key>
+			<key>DirectGopRendering</key>
 			<false/>
 			<key>IgnoreTextInGraphics</key>
 			<false/>
 			<key>ProvideConsoleGop</key>
 			<true/>
-			<key>DirectGopRendering</key>
-			<false/>
 			<key>ReconnectOnResChange</key>
 			<false/>
 			<key>ReplaceTabWithSpace</key>
 			<false/>
+			<key>Resolution</key>
+			<string>Max</string>
 			<key>SanitiseClearScreen</key>
 			<false/>
+			<key>TextRenderer</key>
+			<string>BuiltinGraphics</string>
 		</dict>
 		<key>Protocols</key>
 		<dict>
