@@ -1156,6 +1156,20 @@
 				<key>Path</key>
 				<string>modGRUBShell.efi</string>
 			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<true/>
+				<key>Comment</key>
+				<string>To Modify BIOS</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Name</key>
+				<string>Mod Shell 1</string>
+				<key>Path</key>
+				<string>bootx64.efi</string>
+			</dict>
 		</array>
 	</dict>
 	<key>NVRAM</key>
