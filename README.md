@@ -36,7 +36,7 @@ Hi, this is Johnny, I'm an Engineering student. Life and university studies are 
 * Brightness keys
 * Built-in camera
 * Built-in mic 
-* Bluetooth Intel
+* Bluetooth Intel (no Airdrop, Handoff or Continuity on Intel BT)
 * FileVault Disk encryption (Always make a backup before switching on!!!)
 
 ### Half working:
@@ -44,6 +44,7 @@ Hi, this is Johnny, I'm an Engineering student. Life and university studies are 
 
 ### Not working:
 * Nvidia GPU (MX150/GP108) (Not supported under macOS and probably never will be)
+* Fingerprint Sensor (may be possible using libfprint in the future)
 
 # Installation
 Sounds good! Where do we start? You need a computer with macOS or Windows (scroll down)
@@ -70,8 +71,8 @@ Pro's (+)
 
 Con's (-)
 - Complex to customise (Useful tool to edit config: https://github.com/corpnewt/ProperTree)
-- Unnofficial version [OpenCore Configurator](https://mackie100projects.altervista.org/opencore-configurator/)
-- Without Theme UI until release.
+- (Use with caution) Unnofficial [OpenCore Configurator](https://mackie100projects.altervista.org/opencore-configurator/)
+- Without Theme UI until release. (Beta UI now included in this repo)
 
 ## Installing from macOS:
 ### Clover method:
@@ -135,6 +136,9 @@ sudo diskutil mount /dev/disk0s1
 * Copy and overwrite the contents of the EFIOC (opencore) folder from this website to the EFI folder on the ESP on your SSD.
 * Remove the USB stick from the laptop
 * Done! Reboot and enjoy macOS.
+
+**NOTE**
+* It is somewhat important on OpenCore that the laptop have unlocked CFG Lock. Your laptop will work without, but doing the mod results in better CPU power management, sleep/wake and overall better behaviour like a mac. It is very easy on most laptops because the BIOS has an option in the menu. But on Xiaomi Laptops, the BIOS is locked. Read more about it [here](https://github.com/johnnync13/Xiaomi-Mi-Air/tree/master/BIOS).
 
 ## From Windows:
 ### Clover method:
@@ -234,6 +238,9 @@ sudo diskutil mount /dev/disk0s1
 * Remove the USB stick from the laptop
 * Done! Reboot to enable all the kexts. Enjoy your Hackintosh!
 
+**NOTE**
+* It is somewhat important on OpenCore that the laptop have unlocked CFG Lock. Your laptop will work without, but doing the mod results in better CPU power management, sleep/wake and overall better behaviour like a mac. It is very easy on most laptops because the BIOS has an option in the menu. But on Xiaomi Laptops, the BIOS is locked. Read more about it [here](https://github.com/johnnync13/Xiaomi-Mi-Air/tree/master/BIOS).
+
 # macOS is working! Next steps:
 ### (optional) Fixing iMessage, FaceTime etc.
 This can be a bit of a challenge, and outside of the scope of this repo, but if you want to, have a look here:<br />
@@ -243,37 +250,16 @@ This can be a bit of a challenge, and outside of the scope of this repo, but if 
 ### (optional) WiFi
 Still very buggy, but improving fast. Have a look [here](https://github.com/johnnync13/Xiaomi-Mi-Air/tree/master/WIFI)
 
-If your Intel Wifi not working, please **be patient**.
+If your Intel Wifi not working, please **be patient**, the driver is getting better really fast. Until then, use a macOS compatible USB Wifi dongle or Ethernet adapter.
 
 ### (optional) Garbled Audio Problems
-If you're having audio problems, especially with headphones, run the install.command script inside the [ALCPlugFix](https://github.com/johnnync13/Xiaomi-Mi-Air/tree/master/ALCPlugFix_Xiaomi_Air_13_alc255Gen) folder. This will install a fix, then reboot. Audio should be better.
-
-### (optional) Hackintosh combojack how to
-[hackintosh-stuff](https://github.com/hackintosh-stuff) thanks to his repository we can fix the headphone jack: https://github.com/hackintosh-stuff/ComboJack
+If you're having audio problems, especially with headphones, read more about it under [Audio](https://github.com/johnnync13/Xiaomi-Mi-Air/tree/master/Audio)
 
 ### (optional) Display Color Profile:
-Copy the .icm files from the [ColorProfile](https://github.com/johnnync13/Xiaomi-Mi-Air/tree/master/ColorProfile) folder to /Library/ColorSync/Profiles/ and pick one in System Preferences, Displays, Color tab. They have different white balance levels so pick whichever you like.
+Read more in [Display](https://github.com/johnnync13/Xiaomi-Mi-Air/tree/master/Display)
 
 ### (optional) High DPI display fix:
-Since the text on the 13" display can be quite small for many people in 1920x1080 resolution, it's possible to use some of the High DPI scaling features of macOS. To enable those:
-
-* Boot into the Recovery partition (in Clover hit (Fn+)F3 to show all partitions)
-* We need to temporarily disable SIP. Run Terminal from the Utilities menu and run:
-```
-csrutil disable
-```
-* Reboot into normal macOS
-* Open Terminal and run the [hidpi.sh](https://github.com/johnnync13/Xiaomi-Mi-Air/blob/master/HighDPI/hidpi.sh) script:
-```
-bash -c "$(curl -fsSL https://github.com/johnnync13/Xiaomi-Mi-Air/raw/master/HighDPI/hidpi.sh)"
-```
-* Choose (1) Enable, (3) MacBook Pro and (1) 1920x1080 Display.
-* Reboot and test your new Display settings in System Preferences.
-* When all set, reboot back into Recovery and enable SIP again:
-```
-csrutil enable
-```
-* Reboot into macOS. Done!
+Read more in [Display](https://github.com/johnnync13/Xiaomi-Mi-Air/tree/master/Display)
 
 
 # Troubleshooting
@@ -294,39 +280,6 @@ sudo kextcache -i / && sudo kextcache -u /
 Using OpenCore:
 * Make sure the kexts are in the EFI/OC/kexts folder on your SSD EFI system partition (ESP).
 * Reboot. If still not working, try resetting the NVRAM from OpenCore boot menu.
-
-**IMPORTANT:**
-* It is really important on OpenCore, that the laptop have unlocked CFG Lock. It is important to CPU, sleep/wake and better behavior like native macOS. It is very easy on the most laptops because the BIOS has option in menu. But on Xiaomi Laptops, it is very simple with some steps on Windows. Maybe, make a video about it. 
-
-# BIOS Modification
-
-### Tutorial to modify BIOS  
-* I would like make a script or others methods but this tutorial is like OpenCore method.  
-* Soon I upload a csv with all xiaomi laptops that I have on the github with hexadecimal variables to unlock CFG Lock, MC Lock, SpeedShift and more.    
-* ## THIS TUTORIAL IS AN EXAMPLE, NOT GET THE VALUES AND VARIABLES
-  
-## First of all, I am not responsible for what can happen to your laptop  
-  
-1- Boot with OpenCore  
-2- Click on space key on keyboard.  
-3- Select partition Mod Grub Shell  
-4- Write a command method, for example to unlock cfg lock: setup_var 0x3C 0x00  
-Other example, SpeedShift to enable: setup_var 0xB 0x01  
-it is possible that for example, SpeedShift is enabled before.     
-* ### Explanation:  
-setup_var is to call method function.  
-0x3C is the location memory on bios that is variable CFG Lock.    
-0x00 is to disable and 0x01 is to enable. I put the example here.  
-(default) is how the variable is when you install a BIOS, that is, by the manufacturer.  
-
-One Of: CFG Lock, VarStoreInfo (VarOffset/VarName): 0x3C, VarStore: 0x3, QuestionId: 0x146, Size: 1, Min:   0x0, Max 0x1, Step: 0x0 {05 91 8A 02 8B 02 46 01 03 00 3C 00 10 10 00 01 00}  
-0x149413 			One Of Option: Disabled, Value (8 bit): 0x0 {09 07 04 00 00 00 00}  
-0x14941A 			One Of Option: Enabled, Value (8 bit): 0x1 (default) {09 07 03 00 30 00 01}  
-0x149421 		End One Of {29 02}  
-  
-5- You can set up more variables to modify Bios. If you want exit, you must write reboot and click enter on keyboard.  
-  
-6- You can verify the CFG is unlocked or other parametres like SpeedShift is enabled in hackintool, section Utilities and press button Get AppleIntelInfo.  
 
 
 
