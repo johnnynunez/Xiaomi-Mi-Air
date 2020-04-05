@@ -10,8 +10,6 @@ Hi, this is Johnny, I'm an Engineering student. Life and university studies are 
 # EFI Folder for the Xiaomi Mi Notebook Air 13.3" 2018
 
 ### MacOS Versions Supported:
-* macOS 10.13 High Sierra
-* macOS 10.14 Mojave
 * macOS 10.15 Catalina
 
 ### What do I need?
