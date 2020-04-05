@@ -19,6 +19,7 @@ Set-ExecutionPolicy Unrestricted -Scope CurrentUser
 ```
 2. Close PowerShell
 3. Run `bios_unlock.cmd` **as Administrator** (This unlocks your BIOS to change settings)
+**NOTE The first time you might get a warning and a notification from Windows Defender (or other virus scanner) that the executable was blocked. Go in to the Defender settings and make sure that the exe is allowed.**
 4. Reboot
 5. Run `CFG_unlock.cmd` **as Administrator** (This unlocks the CFG Lock)
 6. Reboot
