@@ -56,7 +56,7 @@ select14="(2)Permanent Use current settings after reboot"
 
 input="Enter your choice"
 position="/Library/Application Support/VoltageShift"
-download_dir="https://github.com/johnnync13/Xiaomi-Mi-Air/raw/master/BIOS/VoltageShift/VoltageShift.zip"
+download_dir="https://github.com/johnnync13/Xiaomi-Mi-Air/blob/master/BIOS/VoltageShift/VoltageShift.zip"
 
 if [[ "${systemLanguage}" == "zh_CN" ]]; then
     prompt1="此脚本只限于小米笔记本Pro 和 小米笔记本GTX!"
