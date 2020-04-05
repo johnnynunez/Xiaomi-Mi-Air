@@ -42,7 +42,7 @@ Hi, this is Johnny, I'm an Engineering student. Life and university studies are 
 
 ### Not working:
 * Nvidia GPU (MX150/GP108) (Not supported under macOS and probably never will be)
-* Fingerprint Sensor (may be possible using libfprint in the future)
+* Fingerprint Sensor (may be possible using libfprint in the future see [#94](https://github.com/johnnync13/Xiaomi-Mi-Air/issues/94))
 
 # Installation
 Sounds good! Where do we start? You need a computer with macOS or Windows (scroll down)
