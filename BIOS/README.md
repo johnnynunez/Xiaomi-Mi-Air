@@ -3,7 +3,7 @@ Modifying the BIOS can be dangerous! Use these scripts at your own risk. I'm not
 
 # BIOS Modification
 
-** IMPORTANT: Thes scripts only work on the Xiaomi Mi Notebook air 13,3" 2018 Model (TM1703)**
+**IMPORTANT: Thes scripts only work on the Xiaomi Mi Notebook air 13,3" 2018 Model (TM1703)**
 
 These [Unlock scripts](https://github.com/johnnync13/Xiaomi-Mi-Air/tree/master/BIOS/Unlock_Scripts) only run under Windows. Tested under latest Windows 10.
 
@@ -29,8 +29,9 @@ Set-ExecutionPolicy Unrestricted -Scope CurrentUser
 11. If everything still works, then you can lock your BIOS again for security reasons. Run `bios_lock.cmd` **as Administrator** 
 12. Reboot
 
-## Fixing OpenCore config.plist
+## Fixing OpenCore config.plist for native CPU Power Management
 
+Now that we have native CPU power management, we can remove the normally applied 'hacks' in Opencore.
 Open `/EFI/OC/config.plist`, find the following code:
 ```
 <key>AppleCpuPmCfgLock</key>
