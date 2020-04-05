@@ -152,7 +152,8 @@
 			</dict>
 		</array>
 		<key>Block</key>
-		<array/>
+		<array>
+		</array>
 		<key>Patch</key>
 		<array>
 			<dict>
@@ -355,7 +356,8 @@
 	<key>Booter</key>
 	<dict>
 		<key>MmioWhitelist</key>
-		<array/>
+		<array>
+		</array>
 		<key>Quirks</key>
 		<dict>
 			<key>AvoidRuntimeDefrag</key>
@@ -369,7 +371,7 @@
 			<key>DiscardHibernateMap</key>
 			<false/>
 			<key>EnableSafeModeSlide</key>
-			<false/>
+			<true/>
 			<key>EnableWriteUnprotector</key>
 			<true/>
 			<key>ForceExitBootServices</key>
@@ -379,11 +381,9 @@
 			<key>ProtectSecureBoot</key>
 			<false/>
 			<key>ProvideCustomSlide</key>
-			<false/>
+			<true/>
 			<key>SetupVirtualMap</key>
 			<true/>
-			<key>ShrinkMemoryMap</key>
-			<false/>
 			<key>SignalAppleOS</key>
 			<false/>
 		</dict>
@@ -954,7 +954,8 @@
 			</dict>
 		</array>
 		<key>Block</key>
-		<array/>
+		<array>
+		</array>
 		<key>Emulate</key>
 		<dict>
 			<key>Cpuid1Data</key>
@@ -1024,9 +1025,9 @@
 		<key>Quirks</key>
 		<dict>
 			<key>AppleCpuPmCfgLock</key>
-			<false/>
+			<true/>
 			<key>AppleXcpmCfgLock</key>
-			<false/>
+			<true/>
 			<key>AppleXcpmExtraMsrs</key>
 			<false/>
 			<key>AppleXcpmForceBoost</key>
@@ -1066,7 +1067,7 @@
 			<key>HideAuxiliary</key>
 			<true/>
 			<key>HideSelf</key>
-			<false/>
+			<true/>
 			<key>PickerAttributes</key>
 			<integer>0</integer>
 			<key>PickerAudioAssist</key>
@@ -1094,7 +1095,8 @@
 			<integer>0</integer>
 		</dict>
 		<key>Entries</key>
-		<array/>
+		<array>
+		</array>
 		<key>Security</key>
 		<dict>
 			<key>AllowNvramReset</key>
@@ -1136,7 +1138,7 @@
 				<key>Comment</key>
 				<string>Clean NVRAM to reduce conflicts with other bootloaders</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Name</key>
 				<string>Clean NVRAM</string>
 				<key>Path</key>
@@ -1150,7 +1152,7 @@
 				<key>Comment</key>
 				<string>To Modify BIOS</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Name</key>
 				<string>Mod GRUB Shell</string>
 				<key>Path</key>
@@ -1164,7 +1166,7 @@
 				<key>Comment</key>
 				<string>To Modify BIOS</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Name</key>
 				<string>Mod Shell 1</string>
 				<key>Path</key>
@@ -1198,6 +1200,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<array>
 				<string>boot-args</string>
+				<string>csr-active-config</string>
 			</array>
 		</dict>
 		<key>LegacyEnable</key>
@@ -1225,63 +1228,6 @@
 			<string>C02ZW0R9HV29</string>
 			<key>SystemUUID</key>
 			<string>29A29DD1-D05B-4199-820C-399B58EE812E</string>
-		</dict>
-		<key>SMBIOS</key>
-		<dict>
-			<key>BIOSReleaseDate</key>
-			<string>10/30/2019</string>
-			<key>BIOSVendor</key>
-			<string></string>
-			<key>BIOSVersion</key>
-			<string>203.0.0.0.0</string>
-			<key>BoardAssetTag</key>
-			<string></string>
-			<key>BoardLocationInChassis</key>
-			<string>Part Component</string>
-			<key>BoardManufacturer</key>
-			<string></string>
-			<key>BoardProduct</key>
-			<string>Mac-B4831CEBD52A0C4C</string>
-			<key>BoardSerialNumber</key>
-			<string>C02952301J9HWVPJA</string>
-			<key>BoardType</key>
-			<integer>10</integer>
-			<key>BoardVersion</key>
-			<string>1.0</string>
-			<key>ChassisAssetTag</key>
-			<string>MacBook-Aluminum</string>
-			<key>ChassisManufacturer</key>
-			<string></string>
-			<key>ChassisSerialNumber</key>
-			<string>C02ZW0R9HV29</string>
-			<key>ChassisType</key>
-			<integer>9</integer>
-			<key>ChassisVersion</key>
-			<string>Mac-B4831CEBD52A0C4C</string>
-			<key>FirmwareFeatures</key>
-			<string>76E10FFC 00000000</string>
-			<key>FirmwareFeaturesMask</key>
-			<string>7FFF1FFF 00000000</string>
-			<key>MemoryFormFactor</key>
-			<string></string>
-			<key>PlatformFeature</key>
-			<integer>26</integer>
-			<key>ProcessorType</key>
-			<integer>0</integer>
-			<key>SystemFamily</key>
-			<string>MacBook Pro</string>
-			<key>SystemManufacturer</key>
-			<string></string>
-			<key>SystemProductName</key>
-			<string>MacBookPro14,1</string>
-			<key>SystemSKUNumber</key>
-			<string>Mac-B4831CEBD52A0C4C</string>
-			<key>SystemSerialNumber</key>
-			<string>C02ZW0R9HV29</string>
-			<key>SystemUUID</key>
-			<string>29A29DD1-D05B-4199-820C-399B58EE812E</string>
-			<key>SystemVersion</key>
-			<string>1.0</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
