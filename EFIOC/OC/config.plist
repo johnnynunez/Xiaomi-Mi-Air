@@ -32,11 +32,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Inject Interrupt</string>
+				<string>Disable RP08 device</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-GPI0.aml</string>
+				<string>SSDT-DRP08.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -64,11 +64,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Trackpad</string>
+				<string>I2C</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-TPD0.aml</string>
+				<string>SSDT-I2C.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -142,9 +142,18 @@
 				<key>Path</key>
 				<string>SSDT-XCPM.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>OSI</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-XOSI.aml</string>
+			</dict>
 		</array>
 		<key>Block</key>
-		<array/>
+		<array>
+		</array>
 		<key>Patch</key>
 		<array>
 			<dict>
@@ -253,6 +262,32 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>change _OSI to XOSI, pair with SSDT-XOSI.aml</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>X09TSQ==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>WE9TSQ==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>RFNEVA==</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Rename TPD0._CRS to XCRS</string>
 				<key>Count</key>
 				<integer>0</integer>
@@ -279,13 +314,13 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Rename TPD0._INI to XINI</string>
+				<string>Rename GPI0._STA to XSTA (Trackpad)</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
-				<data>FEUEX0lOSQA=</data>
+				<data>FB1fU1RBAKAJk1M=</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -293,7 +328,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>FEUEWElOSQA=</data>
+				<data>FB1YU1RBAKAJk1M=</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -301,7 +336,7 @@
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>U1NEVA==</data>
+				<data>RFNEVA==</data>
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -321,7 +356,8 @@
 	<key>Booter</key>
 	<dict>
 		<key>MmioWhitelist</key>
-		<array/>
+		<array>
+		</array>
 		<key>Quirks</key>
 		<dict>
 			<key>AvoidRuntimeDefrag</key>
@@ -340,21 +376,15 @@
 			<true/>
 			<key>ForceExitBootServices</key>
 			<false/>
-			<key>ProtectMemoryRegions</key>
+			<key>ProtectCsmRegion</key>
 			<false/>
 			<key>ProtectSecureBoot</key>
 			<false/>
-			<key>ProtectUefiServices</key>
-			<false/>
 			<key>ProvideCustomSlide</key>
 			<true/>
-			<key>RebuildAppleMemoryMap</key>
-			<false/>
 			<key>SetupVirtualMap</key>
 			<true/>
 			<key>SignalAppleOS</key>
-			<false/>
-			<key>SyncRuntimePermissions</key>
 			<false/>
 		</dict>
 	</dict>
@@ -924,7 +954,8 @@
 			</dict>
 		</array>
 		<key>Block</key>
-		<array/>
+		<array>
+		</array>
 		<key>Emulate</key>
 		<dict>
 			<key>Cpuid1Data</key>
@@ -1031,8 +1062,6 @@
 		</array>
 		<key>Boot</key>
 		<dict>
-			<key>ConsoleAttributes</key>
-			<integer>0</integer>
 			<key>HibernateMode</key>
 			<string>Auto</string>
 			<key>HideAuxiliary</key>
@@ -1056,8 +1085,6 @@
 		</dict>
 		<key>Debug</key>
 		<dict>
-			<key>AppleDebug</key>
-			<false/>
 			<key>DisableWatchDog</key>
 			<false/>
 			<key>DisplayDelay</key>
@@ -1068,7 +1095,8 @@
 			<integer>0</integer>
 		</dict>
 		<key>Entries</key>
-		<array/>
+		<array>
+		</array>
 		<key>Security</key>
 		<dict>
 			<key>AllowNvramReset</key>
@@ -1241,8 +1269,6 @@
 		</array>
 		<key>Input</key>
 		<dict>
-			<key>KeyFiltering</key>
-			<false/>
 			<key>KeyForgetThreshold</key>
 			<integer>5</integer>
 			<key>KeyMergeThreshold</key>
@@ -1266,8 +1292,6 @@
 			<false/>
 			<key>ConsoleMode</key>
 			<string></string>
-			<key>DirectGopCacheMode</key>
-			<string></string>
 			<key>DirectGopRendering</key>
 			<false/>
 			<key>IgnoreTextInGraphics</key>
@@ -1290,8 +1314,6 @@
 			<key>AppleAudio</key>
 			<false/>
 			<key>AppleBootPolicy</key>
-			<false/>
-			<key>AppleDebugLog</key>
 			<false/>
 			<key>AppleEvent</key>
 			<false/>
