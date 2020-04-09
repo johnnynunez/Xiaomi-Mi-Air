@@ -104,14 +104,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>OSI changes mod OC</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-OC-XOSI.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>Add PMCR device</string>
 				<key>Enabled</key>
 				<true/>
