@@ -277,32 +277,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>change _OSI to XOSI, pair with SSDT-XOSI.aml</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>X09TSQ==</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>OemTableId</key>
-				<data></data>
-				<key>Replace</key>
-				<data>WE9TSQ==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>RFNEVA==</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>Rename TPD0._CRS to XCRS</string>
 				<key>Count</key>
 				<integer>0</integer>
