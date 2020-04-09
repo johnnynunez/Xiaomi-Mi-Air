@@ -294,12 +294,18 @@
 				<data>AAAWWQ==</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,2,0</string>
+				<key>complete-modeset-framebuffers</key>
+				<data>AAAAAAAAAAE=</data>
 				<key>device-id</key>
 				<data>FlkAAA==</data>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
 				<key>disable-external-gpu</key>
 				<data>AQAAAA==</data>
+				<key>force-online</key>
+				<data>AQAAAA==</data>
+				<key>force-online-framebuffers</key>
+				<data>AAAAAAAAAAE=</data>
 				<key>framebuffer-con1-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con1-pipe</key>
