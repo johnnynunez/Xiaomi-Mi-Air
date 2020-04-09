@@ -288,7 +288,6 @@
 						<string>;Items must be strings in the form of scanfrom=scanto (in hex)</string>
 						<string>e027=0;disable discrete fnkeys toggle</string>
 						<string>e028=0;disable discrete trackpad toggle</string>
-						<string>e037=0;prevent Fn+F11 disabling trackpad</string>
 					</array>
 					<key>HIDF12EjectDelay</key>
 					<integer>250</integer>
