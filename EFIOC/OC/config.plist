@@ -148,7 +148,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-TPDX.aml</string>
+				<string>SSDT-TPD0.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
