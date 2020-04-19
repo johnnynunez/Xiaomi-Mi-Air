@@ -261,6 +261,9 @@ Read more in [Display](https://github.com/johnnync13/Xiaomi-Mi-Air/tree/master/D
 
 
 # Troubleshooting
+### I have a problem an don't know what to do!
+Please read the [issues section](https://github.com/johnnync13/Xiaomi-Mi-Air/issues?q=), and only if your question is not yet answered, submit a new one.
+
 ### Some device in my system is not working under macOS!
 Using Clover:
 * Make sure all kexts are in /Library/Extensions/ then run:
