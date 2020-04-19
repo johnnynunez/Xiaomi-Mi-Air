@@ -19,7 +19,7 @@ Hi, this is Johnny, I'm an Engineering student. Life and university studies are 
 * Latest copy of these files (https://github.com/johnnync13/Xiaomi-Mi-Air/releases)
 * (optional for multiboot) Second (M.2 SATA) SSD installed inside the laptop.
 * (possibly) USB mouse for install until trackpad is working
-* (possibly) For macOS 10.15: a natively supported (e.g. Apple) USB Ethernet adapter for installation
+* (possibly) For macOS 10.15: a natively supported (e.g. Apple) USB Ethernet adapter for installation ([Apple](https://www.apple.com/shop/product/MC704LL/A/apple-usb-ethernet-adapter) / [Amazon](https://www.amazon.com/s?k=AX88179) / [Ebay](https://www.ebay.com/sch/i.html?_nkw=AX88179))
 
 ### What is Working?
 * Native CPU Power Management
