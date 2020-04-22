@@ -251,10 +251,6 @@
 				<dict>
 					<key>ButtonCount</key>
 					<integer>3</integer>
-					<key>ClickPadClickTime</key>
-					<integer>300000000</integer>
-					<key>ClickPadTrackBoth</key>
-					<true/>
 					<key>Darwin 16+</key>
 					<dict>
 						<key>ApplePreferenceCapability</key>
@@ -270,7 +266,7 @@
 						<key>TrackpadEmbedded</key>
 						<true/>
 						<key>TrackpadFourFingerGestures</key>
-						<false/>
+						<true/>
 						<key>TrackpadSecondaryClickCorners</key>
 						<true/>
 						<key>TrackpadThreeFingerDrag</key>
@@ -280,12 +276,8 @@
 					<false/>
 					<key>DisableLEDUpdating</key>
 					<false/>
-					<key>DynamicEWMode</key>
-					<false/>
 					<key>FakeMiddleButton</key>
 					<true/>
-					<key>FingerChangeIgnoreDeltas</key>
-					<integer>3</integer>
 					<key>ForceTouchMode</key>
 					<integer>1</integer>
 					<key>ForceTouchPressureThreshold</key>
@@ -367,18 +359,12 @@
 					<string>Thinkpad_ClickPad</string>
 					<key>Thinkpad_ClickPad</key>
 					<dict>
-						<key>DynamicEWMode</key>
-						<false/>
-						<key>EdgeBottom</key>
-						<integer>0</integer>
 						<key>FakeMiddleButton</key>
 						<false/>
 						<key>FingerZ</key>
 						<integer>30</integer>
 						<key>HWResetOnStart</key>
 						<true/>
-						<key>MaxTapTime</key>
-						<integer>100000000</integer>
 						<key>MouseMultiplierX</key>
 						<integer>2</integer>
 						<key>MouseMultiplierY</key>
@@ -387,8 +373,6 @@
 						<integer>2</integer>
 						<key>MouseScrollMultiplierY</key>
 						<integer>2</integer>
-						<key>PalmNoAction When Typing</key>
-						<true/>
 						<key>ScrollResolution</key>
 						<integer>800</integer>
 						<key>Thinkpad</key>
@@ -396,27 +380,17 @@
 					</dict>
 					<key>Thinkpad_TrackPad</key>
 					<dict>
-						<key>DynamicEWMode</key>
-						<false/>
 						<key>FakeMiddleButton</key>
 						<false/>
 						<key>FingerZ</key>
 						<integer>47</integer>
 						<key>HWResetOnStart</key>
 						<true/>
-						<key>MaxTapTime</key>
-						<integer>100000000</integer>
-						<key>PalmNoAction When Typing</key>
-						<true/>
 						<key>Resolution</key>
 						<integer>3200</integer>
 						<key>ScrollResolution</key>
 						<integer>800</integer>
-						<key>SmoothInput</key>
-						<true/>
 						<key>Thinkpad</key>
-						<true/>
-						<key>UnsmoothInput</key>
 						<true/>
 					</dict>
 					<key>X1CG3</key>
