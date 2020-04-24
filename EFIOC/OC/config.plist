@@ -1007,8 +1007,6 @@
 			<false/>
 			<key>DisableIoMapper</key>
 			<true/>
-			<key>DisableRtcChecksum</key>
-			<false/>
 			<key>DummyPowerManagement</key>
 			<false/>
 			<key>ExternalDiskIcons</key>
@@ -1162,7 +1160,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>darkwake=0 gfxrst=1</string>
+				<string>darkwake=0 gfxrst=1 igfxagdc=0</string>
 				<key>csr-active-config</key>
 				<data>ZwAAAA==</data>
 			</dict>
@@ -1216,19 +1214,6 @@
 	</dict>
 	<key>UEFI</key>
 	<dict>
-		<key>APFS</key>
-		<dict>
-			<key>EnableJumpstart</key>
-			<false/>
-			<key>HideVerbose</key>
-			<false/>
-			<key>JumpstartHotPlug</key>
-			<false/>
-			<key>MinDate</key>
-			<integer>0</integer>
-			<key>MinVersion</key>
-			<integer>0</integer>
-		</dict>
 		<key>Audio</key>
 		<dict>
 			<key>AudioCodec</key>
@@ -1302,7 +1287,7 @@
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
 		</dict>
-		<key>ProtocolOverrides</key>
+		<key>Protocols</key>
 		<dict>
 			<key>AppleAudio</key>
 			<false/>
@@ -1316,10 +1301,8 @@
 			<false/>
 			<key>AppleKeyMap</key>
 			<false/>
-			<key>AppleRtcRam</key>
-			<false/>
 			<key>AppleSmcIo</key>
-			<true/>
+			<false/>
 			<key>AppleUserInterfaceTheme</key>
 			<false/>
 			<key>DataHub</key>
@@ -1327,7 +1310,7 @@
 			<key>DeviceProperties</key>
 			<false/>
 			<key>FirmwareVolume</key>
-			<true/>
+			<false/>
 			<key>HashServices</key>
 			<false/>
 			<key>OSInfo</key>
@@ -1350,8 +1333,6 @@
 			<key>UnblockFsConnect</key>
 			<false/>
 		</dict>
-		<key>ReservedMemory</key>
-		<array/>
 	</dict>
 </dict>
 </plist>
