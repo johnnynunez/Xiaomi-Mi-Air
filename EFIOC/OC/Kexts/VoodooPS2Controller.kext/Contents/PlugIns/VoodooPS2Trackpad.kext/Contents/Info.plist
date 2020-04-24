@@ -278,6 +278,12 @@
 					<false/>
 					<key>FakeMiddleButton</key>
 					<true/>
+					<key>ForceTouchCustomDownThreshold</key>
+					<integer>90</integer>
+					<key>ForceTouchCustomPower</key>
+					<integer>8</integer>
+					<key>ForceTouchCustomUpThreshold</key>
+					<integer>20</integer>
 					<key>ForceTouchMode</key>
 					<integer>1</integer>
 					<key>ForceTouchPressureThreshold</key>
