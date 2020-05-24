@@ -13,7 +13,7 @@ Hi, this is Johnny, I'm an Engineering student. Life and university studies are 
 * macOS 10.15 Catalina
 
 ### What do I need?
-* Xiaomi Notebook Air 2018 13.3" i5-8250u / i7-8550u
+* Xiaomi Notebook Air 2018 13.3" i5-8250u / i7-8550u (2019 model with MX250 also [reported to be working](https://github.com/johnnync13/Xiaomi-Mi-Air/issues/135))
 * macOS or windows PC to create the install USB
 * 8GB or larger USB stick (USB3 preferred for speed)
 * Latest copy of these files (https://github.com/johnnync13/Xiaomi-Mi-Air/releases)
@@ -21,6 +21,7 @@ Hi, this is Johnny, I'm an Engineering student. Life and university studies are 
 * (possibly) USB mouse for install until trackpad is working
 * (possibly) For macOS 10.15: a natively supported (e.g. Apple) USB Ethernet adapter for installation ([Apple](https://www.apple.com/shop/product/MC704LL/A/apple-usb-ethernet-adapter) / [Amazon](https://www.amazon.com/s?k=AX88179) / [Ebay](https://www.ebay.com/sch/i.html?_nkw=AX88179))
 * (possibly) If you have an android phone, you can tether wifi from it using this kext [HoRNDIS](https://joshuawise.com/horndis), load it in the recovery terminal/Terminal.app using kextload and connect your phone via cable
+* (possibly) If your laptop came with a PM981 SSD, consider replacing it with a different one (Google Hackintosh compatibility) or install macOS on a separate (M.2 SATA) SSD. There's known issues with the PM981 and macOS. This is currently 'fixed' with the NVMeFix kext.
 
 ### What is Working?
 * Native CPU Power Management
@@ -302,4 +303,3 @@ Use these files and this howto at your own risk. I'm not responsible in any way 
 - [alexandred](https://github.com/alexandred) Updated [Voodooi2c](https://github.com/alexandred/VoodooI2C) for maintenance
 
 - [Community Chinese](https://github.com/a565109863) Updated [Intel Wifi](https://bbs.pcbeta.org/forum.php?mod=viewthread&tid=1838489) for intel wifi and tutorial
-
