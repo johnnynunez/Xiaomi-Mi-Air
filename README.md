@@ -20,7 +20,7 @@ Hi, this is Johnny, I'm an Engineering student. Life and university studies are 
 * (optional for multiboot) Second (M.2 SATA) SSD installed inside the laptop.
 * (possibly) USB mouse for install until trackpad is working
 * (possibly) For macOS 10.15: a natively supported (e.g. Apple) USB Ethernet adapter for installation ([Apple](https://www.apple.com/shop/product/MC704LL/A/apple-usb-ethernet-adapter) / [Amazon](https://www.amazon.com/s?k=AX88179) / [Ebay](https://www.ebay.com/sch/i.html?_nkw=AX88179))
-* (possibly) If you have an android phone, you can tether wifi from it using this kext [HoRNDIS](https://joshuawise.com/horndis), load it in the recovery terminal/Terminal.app using kextload and connect your phone via cable
+* (possibly) If you have an android phone, you can tether wifi from it using the HoRNDIS.kext, load it in the recovery terminal/Terminal.app using kextload and connect your phone via cable
 * (possibly) If your laptop came with a PM981 SSD, consider replacing it with a different one (Google Hackintosh compatibility) or install macOS on a separate (M.2 SATA) SSD. There's known issues with the PM981 and macOS. This is currently 'fixed' with the NVMeFix kext.
 
 ### What is Working?
