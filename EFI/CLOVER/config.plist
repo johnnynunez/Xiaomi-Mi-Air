@@ -62,7 +62,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>darkwake=0 dart=0 gfxrst=1 igfxagdc=0</string>
+		<string>darkwake=0 dart=0 gfxrst=1 igfxonln=1 igfxonlnfbs=0x010203</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>HibernationFixup</key>
@@ -238,10 +238,6 @@
 				<string>VGA compatible controller</string>
 				<key>disable-external-gpu</key>
 				<data>AQAAAA==</data>
-				<key>force-online</key>
-				<data>AQAAAA==</data>
-				<key>force-online-framebuffers</key>
-				<data>AAAAAAAAAAE=</data>
 				<key>framebuffer-con1-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con1-pipe</key>
