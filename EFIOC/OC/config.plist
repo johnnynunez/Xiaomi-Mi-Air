@@ -461,10 +461,6 @@
 				<string>VGA compatible controller</string>
 				<key>disable-external-gpu</key>
 				<data>AQAAAA==</data>
-				<key>force-online</key>
-				<data>AQAAAA==</data>
-				<key>force-online-framebuffers</key>
-				<data>AAAAAAAAAAE=</data>
 				<key>framebuffer-con1-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con1-pipe</key>
@@ -1162,7 +1158,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>darkwake=0 gfxrst=1 igfxagdc=0</string>
+				<string>darkwake=0 gfxrst=1 igfxonln=1 igfxonlnfbs=0x010203</string>
 				<key>csr-active-config</key>
 				<data>ZwAAAA==</data>
 			</dict>
