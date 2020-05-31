@@ -248,7 +248,7 @@ sudo diskutil mount /dev/disk0s1
 ### (optional) Fixing iMessage, FaceTime etc.
 This can be a bit of a challenge, and outside of the scope of this repo, but if you want to, have a look here:<br />
 [An iDiot's Guide To iMessage (clover)](https://www.tonymacx86.com/threads/an-idiots-guide-to-imessage.196827/)<br />
-[Fixing iServices (OpenCore)](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/extras/iservices)
+[Fixing iServices (OpenCore)](https://dortania.github.io/OpenCore-Desktop-Guide/post-install/iservices.html)
 
 ### (optional) WiFi
 Still very buggy, but improving fast. Have a look [here](https://github.com/johnnync13/Xiaomi-Mi-Air/tree/master/WIFI)
