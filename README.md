@@ -13,7 +13,7 @@ Hi, this is Johnny, I'm an Engineering student. Life and university studies are 
 * macOS 10.15 Catalina
 
 ### What do I need?
-* Xiaomi Notebook Air 2018 13.3" i5-8250u / i7-8550u (2019 model with MX250 also [reported to be working](https://github.com/johnnync13/Xiaomi-Mi-Air/issues/135))
+* Xiaomi Notebook Air 2018 13.3" i5-8250u / i7-8550u ([2017 model](https://github.com/johnnync13/Xiaomi-Mi-Air/issues/157) and [2019 model with MX250](https://github.com/johnnync13/Xiaomi-Mi-Air/issues/135) also reported to be working)
 * macOS or windows PC to create the install USB
 * 8GB or larger USB stick (USB3 preferred for speed)
 * Latest copy of these files (https://github.com/johnnync13/Xiaomi-Mi-Air/releases)
