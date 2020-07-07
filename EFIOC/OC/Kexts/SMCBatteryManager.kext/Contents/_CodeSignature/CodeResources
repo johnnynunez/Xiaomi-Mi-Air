@@ -3,9 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>files</key>
-	<dict/>
+	<dict>
+		<key>Resources/SSDT-BATC.dsl</key>
+		<data>
+		GR5jQT6YEajh2JAV07GEMZ4MEEg=
+		</data>
+	</dict>
 	<key>files2</key>
-	<dict/>
+	<dict>
+		<key>Resources/SSDT-BATC.dsl</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GR5jQT6YEajh2JAV07GEMZ4MEEg=
+			</data>
+			<key>hash2</key>
+			<data>
+			5mu9V+XG7w3bw6blH2j+h12EcJtz1HcuHBkyafKonks=
+			</data>
+		</dict>
+	</dict>
 	<key>rules</key>
 	<dict>
 		<key>^Resources/</key>
