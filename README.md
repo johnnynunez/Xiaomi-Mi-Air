@@ -42,9 +42,9 @@ sudo kextload -v /Volumes/USB/HoRNDIS.kext
 * FileVault Disk encryption (Always make a backup before switching on!!!)
 
 ### Half working:
-* [Wifi Intel](https://github.com/johnnync13/Xiaomi-Mi-Air/tree/master/WIFI) (still buggy for now)
+* [Wifi Intel](https://github.com/johnnync13/Xiaomi-Mi-Air/tree/master/WIFI) Is stable now. Only implemented 11n stack but in the future 11ac y 11ax will be implemented. You only need install HeliPort app.
 * Bluetooth Intel (no Airdrop, Handoff or Continuity on Intel BT)
-**Caution: Intel Bluetooth kexts can cause frequent kernel panics / crashes when using sleep/wake. Either disable Bluetooth kexts or make sure the laptop doesn't sleep. Please see the [numerous issues](https://github.com/johnnync13/Xiaomi-Mi-Air/issues?q=is%3Aissue+is%3Aclosed+panic+sleep) for more info.**
+**Caution: Intel Bluetooth kexts can cause frequent kernel panics / crashes when using sleep/wake. This now is fixed on the last version kext
 
 ### Not working:
 * Nvidia GPU (MX150/GP108) (Not supported under macOS and probably never will be)
