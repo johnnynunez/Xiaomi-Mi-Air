@@ -1300,8 +1300,6 @@
 			<true/>
 			<key>MLB</key>
 			<string>C02901401GUHWVP1M</string>
-			<key>ProcessorType</key>
-			<integer>0</integer>
 			<key>ROM</key>
 			<data></data>
 			<key>SpoofVendor</key>
