@@ -10,7 +10,11 @@ Hi, this is Johnny, I'm an Engineering student. Life and university studies are 
 # EFI Folder for the Xiaomi Mi Notebook Air 13.3" 2018
 
 ### MacOS Versions Supported:
+* macOS 10.13 High Sierra
+* macOS 10.14 Mojave
 * macOS 10.15 Catalina
+* macOS 11.00 Big Sur
+* macOS 12.00 Monterey
 
 ### What do I need?
 * Xiaomi Notebook Air 2018 13.3" i5-8250u / i7-8550u ([2017 model](https://github.com/johnnync13/Xiaomi-Mi-Air/issues/157) and [2019 model with MX250](https://github.com/johnnync13/Xiaomi-Mi-Air/issues/135) also reported to be working after replacing the PM981 SSD)
