@@ -2,7 +2,7 @@
 Hi, this is Johnny, I'm an Engineering student. Life and university studies are expensive and the work is hard. My repositories are free, please consider rewarding me. Thank you.
 
 ### 4 ways to support me:
-1. [Reward me on PayPal](https://www.paypal.me/johnnync13)(http://app.kuailiandp.com/auth/register/ref/a03805be-c118-4962-9bbe-87dfceb67802) or my WeChat ID: johnnync13
+
 2. Donate BTC: 3R13Ye85VwuzrBEJf32dZgREHsFsFpoG4m
 3. Donate ETH: 0x13f430523CAB662faA6924D6fbA4FdFA973A693b
 4. Please give me feedback: Open (or help with) [issues](https://github.com/johnnync13/Xiaomi-Mi-Air/issues) or fork and send a pull request if you find some improvements to be made!
