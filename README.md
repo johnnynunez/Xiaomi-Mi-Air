@@ -120,7 +120,7 @@ sudo kextcache -i / && sudo kextcache -u /
 * Remove the USB stick from the laptop
 * Done! Reboot to enable all the kexts. Enjoy your Hackintosh!
 
-### OpenCore method:
+### OpenCore method(Only mode supported by this repo):
 * On your mac, create your macOS USB install media (e.g. https://support.apple.com/en-us/HT201372)
 * Mount the ESP (EFI System Partition) on your USB stick: (check that you mount the correct EFI partition, numbers will vary!!!)
 
@@ -129,6 +129,11 @@ diskutil list
 sudo diskutil mount /dev/disk3s1
 ```
 * Copy and overwrite the contents of the EFI folder on your USB stick with the contents of the EFIOC (opencore) folder from this website.
+* To be able to run with SecureBootMode=Default(currently this key is with the value Disabled) and working WI-FI(this requires SecureBootMode in Default) requires a few changes in the config.plist file. First, we need to generate an SystemUUID with 
+[GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) and paste it in the correspondent key. Secondly, generate an code for ApECID with the following line and paste it in the correpondent key
+```
+python3 -c 'import secrets; print(secrets.randbits(64))'
+```
 * Eject the USB stick from your computer and insert in the Xiaomi laptop.
 * Now boot the Xiaomi laptop from the install media (if trackpad is not working, use USB mouse. If network connection needed, use a Apple compatible USB Ethernet adapter)
 * Open Disk Utility and format the builtin SSD or second SSD with APFS (will delete all your files!!!)
