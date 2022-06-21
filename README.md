@@ -1,5 +1,5 @@
 # Support me and this project
-Hi, this is Johnny, I'm an Engineering student. Life and university studies are expensive and the work is hard. My repositories are free, please consider rewarding me. Thank you.
+Hi, I'm Johnny, I'm an Computer Engineering and Data Scientist. Life and university studies are expensive and the work is hard. My repositories are free, please consider rewarding me. Thank you.
 
 ### 4 ways to support me:
 
