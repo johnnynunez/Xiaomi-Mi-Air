@@ -1,0 +1,54 @@
+#!/bin/sh
+
+function get_edid()
+{
+    local index=0
+    local selection=0
+    gDisplayInf=($(ioreg -lw0 | grep -i "IODisplayEDID" | sed -e "/[^<]*</s///" -e "s/\>//"))
+    if [[ "${#gDisplayInf[@]}" -ge 2 ]]; then
+        echo '              Monitors              '
+        echo '------------------------------------'
+        echo '  Index  |  VendorID  |  ProductID  '
+        echo '------------------------------------'
+        for display in "${gDisplayInf[@]}"
+        do
+            let index++
+            printf "    %d    |    ${display:16:4}    |    ${gMonitor:22:2}${gMonitor:20:2}\n" $index
+        done
+        echo '------------------------------------'
+        read -p "Choose the display: " selection
+        case $selection in
+            [[:digit:]]* ) 
+                if ((selection < 1 || selection > index)); then
+                    echo "Enter error, bye";
+                    exit 0
+                fi
+                let selection-=1
+                gMonitor=${gDisplayInf[$selection]}
+                ;;
+            * ) 
+                echo "Enter error, bye";
+                exit 0
+                ;;
+        esac
+    else
+        gMonitor=${gDisplayInf}
+    fi
+
+    EDID=$gMonitor
+    VendorID=$((0x${gMonitor:16:4}))
+    ProductID=$((0x${gMonitor:22:2}${gMonitor:20:2}))
+    Vid=($(printf '%x\n' ${VendorID}))
+    Pid=($(printf '%x\n' ${ProductID}))
+}
+
+get_edid
+
+if [[ -d ../DisplayVendorID-${Vid} ]]; then
+    rm -rf ../DisplayVendorID-${Vid} 
+fi
+
+rm -rf ../Icons.plist
+cp -r ./backup/* ../
+rm -rf ./disable
+echo "HIDPI Disabled"
