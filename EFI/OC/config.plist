@@ -510,7 +510,7 @@
 				<key>BundlePath</key>
 				<string>Lilu.kext</string>
 				<key>Comment</key>
-				<string>V1.5.7 | Patch engine</string>
+				<string>V1.6.2 | Patch engine</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -528,7 +528,7 @@
 				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
-				<string>V1.2.7 | SMC emulator</string>
+				<string>V1.3.0 | SMC emulator</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -546,7 +546,7 @@
 				<key>BundlePath</key>
 				<string>SMCBatteryManager.kext</string>
 				<key>Comment</key>
-				<string>V1.2.7 | SMC Battery</string>
+				<string>V1.3.0 | SMC Battery</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -564,7 +564,7 @@
 				<key>BundlePath</key>
 				<string>SMCLightSensor.kext</string>
 				<key>Comment</key>
-				<string>V1.2.7 | SMC Light Sensor</string>
+				<string>V1.3.0 | SMC Light Sensor</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -582,7 +582,7 @@
 				<key>BundlePath</key>
 				<string>SMCProcessor.kext</string>
 				<key>Comment</key>
-				<string>V1.2.7 | SMC Prosessor</string>
+				<string>V1.3.0 | SMC Prosessor</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -600,7 +600,7 @@
 				<key>BundlePath</key>
 				<string>SMCSuperIO.kext</string>
 				<key>Comment</key>
-				<string>V1.2.7 | SMC Fans</string>
+				<string>V1.3.0 | SMC Fans</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -618,7 +618,7 @@
 				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 				<key>Comment</key>
-				<string>V1.5.5</string>
+				<string>V1.6.1</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -636,7 +636,7 @@
 				<key>BundlePath</key>
 				<string>AppleALC.kext</string>
 				<key>Comment</key>
-				<string>V1.6.6 | Audio patches</string>
+				<string>V1.7.6 | Audio patches</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -672,7 +672,7 @@
 				<key>BundlePath</key>
 				<string>CPUFriend.kext</string>
 				<key>Comment</key>
-				<string>V1.2.4 | Power Management</string>
+				<string>V1.2.6 | Power Management</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -708,7 +708,7 @@
 				<key>BundlePath</key>
 				<string>EFICheckDisabler.kext</string>
 				<key>Comment</key>
-				<string>V</string>
+				<string>V0.5</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -726,7 +726,7 @@
 				<key>BundlePath</key>
 				<string>HibernationFixup.kext</string>
 				<key>Comment</key>
-				<string>V1.4.5</string>
+				<string>V1.4.6</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -744,7 +744,7 @@
 				<key>BundlePath</key>
 				<string>IntelBluetoothFirmware.kext</string>
 				<key>Comment</key>
-				<string>V2.1.0 | Bluetooth</string>
+				<string>V2.2.0 | Bluetooth</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -762,7 +762,7 @@
 				<key>BundlePath</key>
 				<string>BlueToolFixup.kext</string>
 				<key>Comment</key>
-				<string>V2.6.2 | Bluetooth</string>
+				<string>V2.6.4 | Bluetooth</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -780,7 +780,7 @@
 				<key>BundlePath</key>
 				<string>IntelBluetoothInjector.kext</string>
 				<key>Comment</key>
-				<string>V2.1.0 | Bluetooth</string>
+				<string>V2.2.0 | Bluetooth</string>
 				<key>Enabled</key>
 				<false/>
 				<key>ExecutablePath</key>
@@ -816,7 +816,7 @@
 				<key>BundlePath</key>
 				<string>NVMeFix.kext</string>
 				<key>Comment</key>
-				<string>V1.0.9</string>
+				<string>V1.1.0</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -852,7 +852,7 @@
 				<key>BundlePath</key>
 				<string>USBInjectAll.kext</string>
 				<key>Comment</key>
-				<string>V0.7.7 | USB Ports</string>
+				<string>V0.7.8 | USB Ports</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -924,7 +924,7 @@
 				<key>BundlePath</key>
 				<string>VoodooI2C.kext</string>
 				<key>Comment</key>
-				<string>V2.6.5 | Trackpad</string>
+				<string>V2.7 | Trackpad</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -960,7 +960,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext</string>
 				<key>Comment</key>
-				<string>V2.2.8 | Keyboard</string>
+				<string>V2.3.1 | Keyboard</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -978,7 +978,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
 				<key>Comment</key>
-				<string>V2.2.8 | Keyboard</string>
+				<string>V2.3.1 | Keyboard</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1014,7 +1014,7 @@
 				<key>BundlePath</key>
 				<string>AirportItlwm.kext</string>
 				<key>Comment</key>
-				<string>V2.0.0 | itlwm</string>
+				<string>V2.2.0-debug</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1284,7 +1284,7 @@
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>SecureBootModel</key>
-			<string>Disabled</string>
+			<string>Default</string>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
@@ -1335,6 +1335,8 @@
 				<false/>
 				<key>Flavour</key>
 				<string>Auto</string>
+				<key>FullNvramAccess</key>
+				<false/>
 				<key>Name</key>
 				<string>UEFI Shell</string>
 				<key>Path</key>
@@ -1355,6 +1357,8 @@
 				<false/>
 				<key>Flavour</key>
 				<string>Auto</string>
+				<key>FullNvramAccess</key>
+				<false/>
 				<key>Name</key>
 				<string>Clean NVRAM</string>
 				<key>Path</key>
@@ -1375,6 +1379,8 @@
 				<false/>
 				<key>Flavour</key>
 				<string>Auto</string>
+				<key>FullNvramAccess</key>
+				<false/>
 				<key>Name</key>
 				<string>Mod GRUB Shell</string>
 				<key>Path</key>
@@ -1395,6 +1401,8 @@
 				<false/>
 				<key>Flavour</key>
 				<string>Auto</string>
+				<key>FullNvramAccess</key>
+				<false/>
 				<key>Name</key>
 				<string>Mod Shell 1</string>
 				<key>Path</key>
@@ -1434,14 +1442,12 @@
 				<string>boot-args</string>
 			</array>
 		</dict>
-		<key>LegacyEnable</key>
-		<false/>
 		<key>LegacyOverwrite</key>
 		<false/>
-		<key>LegacySchema</key>
-		<dict/>
 		<key>WriteFlash</key>
 		<true/>
+		<key>LegacySchema</key>
+		<dict/>
 	</dict>
 	<key>PlatformInfo</key>
 	<dict>
@@ -1471,63 +1477,6 @@
 			<string>C02VMQY7HV29</string>
 			<key>SystemUUID</key>
 			<string>21A948D8-2973-4BB0-9DF7-1C436F98A863</string>
-		</dict>
-		<key>SMBIOS</key>
-		<dict>
-			<key>BIOSReleaseDate</key>
-			<string>04/11/2022</string>
-			<key>BIOSVendor</key>
-			<string></string>
-			<key>BIOSVersion</key>
-			<string>451.140.1.0.0</string>
-			<key>BoardAssetTag</key>
-			<string>Base Board Asset Tag</string>
-			<key>BoardLocationInChassis</key>
-			<string>Part Component</string>
-			<key>BoardManufacturer</key>
-			<string></string>
-			<key>BoardProduct</key>
-			<string>Mac-B4831CEBD52A0C4C</string>
-			<key>BoardSerialNumber</key>
-			<string>C027447014NHWVPFB</string>
-			<key>BoardType</key>
-			<integer>10</integer>
-			<key>BoardVersion</key>
-			<string>MacBookPro14,1</string>
-			<key>ChassisAssetTag</key>
-			<string>Asset Tag#</string>
-			<key>ChassisManufacturer</key>
-			<string></string>
-			<key>ChassisSerialNumber</key>
-			<string>C02VMQY7HV29</string>
-			<key>ChassisType</key>
-			<integer>9</integer>
-			<key>ChassisVersion</key>
-			<string>Mac-B4831CEBD52A0C4C</string>
-			<key>FirmwareFeatures</key>
-			<data>fvUP/wgAAAA=</data>
-			<key>FirmwareFeaturesMask</key>
-			<data>f/8f/wgAAAA=</data>
-			<key>PlatformFeature</key>
-			<integer>26</integer>
-			<key>ProcessorType</key>
-			<integer>1537</integer>
-			<key>SmcVersion</key>
-			<data></data>
-			<key>SystemFamily</key>
-			<string>MacBook Pro</string>
-			<key>SystemManufacturer</key>
-			<string></string>
-			<key>SystemProductName</key>
-			<string>MacBookPro14,1</string>
-			<key>SystemSKUNumber</key>
-			<string>System SKU#</string>
-			<key>SystemSerialNumber</key>
-			<string>C02VMQY7HV29</string>
-			<key>SystemUUID</key>
-			<string>21A948D8-2973-4BB0-9DF7-1C436F98A863</string>
-			<key>SystemVersion</key>
-			<string>1.0</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1569,6 +1518,12 @@
 			<integer>50</integer>
 			<key>KeySubsequentDelay</key>
 			<integer>5</integer>
+			<key>PointerDwellClickTimeout</key>
+			<integer>0</integer>
+			<key>PointerDwellDoubleClickTimeout</key>
+			<integer>0</integer>
+			<key>PointerDwellRadius</key>
+			<integer>0</integer>
 			<key>PointerPollMask</key>
 			<integer>-1</integer>
 			<key>PointerPollMin</key>
@@ -1616,6 +1571,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>LoadEarly</key>
+				<false/>
 				<key>Path</key>
 				<string>HfsPlus.efi</string>
 			</dict>
@@ -1626,6 +1583,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>LoadEarly</key>
+				<false/>
 				<key>Path</key>
 				<string>OpenRuntime.efi</string>
 			</dict>
@@ -1636,6 +1595,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>LoadEarly</key>
+				<false/>
 				<key>Path</key>
 				<string>AudioDxe.efi</string>
 			</dict>
@@ -1646,6 +1607,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>LoadEarly</key>
+				<false/>
 				<key>Path</key>
 				<string>OpenCanopy.efi</string>
 			</dict>
@@ -1655,6 +1618,8 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
+				<false/>
+				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
 				<string>ExFatDxe.efi</string>
